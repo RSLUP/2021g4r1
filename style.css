@@ -4,11 +4,12 @@
 }
 
 .header {
+    padding-top: 1%;
     height: 100vh;
 }
 
 .navbar-style {
-    box-shadow: 0 5px 10px #efefef;
+    /* box-shadow: 0 5px 10px #efefef; */
     text-transform: uppercase;
 }
 
@@ -23,4 +24,17 @@
 
 li a {
     color: black;
+    font-size: large;
 }
+ .home-img {
+     padding-top: 10%;
+     width: 100%;
+ }
+
+ .main-topic {
+     padding-top: 10%;
+ }
+
+ .content-home {
+     font-size: large;
+ }
