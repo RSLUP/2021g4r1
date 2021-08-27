@@ -82,10 +82,10 @@ margin-left:30px;
     font-weight: bold;
   }
 
-  .score {
+  #score {
     height: 50px;
     width: 100px;
-    font-size: large;
+    font-size: 35px;
     text-align: center;
     font-weight: bold;
     background-color: lightcoral;
