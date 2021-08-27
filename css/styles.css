@@ -62,6 +62,9 @@ margin-left:30px;
   .tile {
     height: 50px;
     width: 50px;
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
   }
 
   .tileD {
@@ -70,8 +73,24 @@ margin-left:30px;
     width: 50px;
   }
 
+  #check-score {
+    height: 50px;
+    width: 150px;
+    background-color: lightcoral;
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+  }
+
 
 }
+
+
+
+
+
+
+
 
 
 @media only screen and (min-width: 481px) {
@@ -85,6 +104,14 @@ margin-left:30px;
   }
 
   .tile {
+    height: 70px;
+    width: 70px;
+    font-size: large;
+    text-align: center;
+  }
+
+  .tileD {
+    background-color: blue;
     height: 70px;
     width: 70px;
   }
