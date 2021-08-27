@@ -82,6 +82,15 @@ margin-left:30px;
     font-weight: bold;
   }
 
+  .score {
+    height: 50px;
+    width: 100px;
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    background-color: lightcoral;
+  }
+
 
 }
 
@@ -98,7 +107,7 @@ margin-left:30px;
       font-style: italic;
   }
 
-  .board-row1, .board-row2, .board-row3, .board-row4  {
+  .board-row1  {
     display: flex;
     justify-content: center;
   }
