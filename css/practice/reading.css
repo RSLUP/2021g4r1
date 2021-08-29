@@ -23,6 +23,15 @@ body{
     padding-top: 10px;
 }
 
+.rules p{
+    font-weight: 600;
+    text-align: justify;
+}
+
+.reading-text p{
+    text-align: justify;
+}
+
 .answer-button{
     text-align: center;
     margin-bottom: 1.5rem;
