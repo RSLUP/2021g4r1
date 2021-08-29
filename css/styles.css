@@ -1,44 +1,40 @@
 * {
-  margin: 0;
-  padding: 0px;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-
-
-
-.navbar-nav > a{
-  margin-left:30px;
-  margin-right:30px;
-  text-align: center;
+.navbar-nav>a {
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
 }
 
-nav > a {
-margin-left:30px;
-  margin-right:30px;
-  text-align: center;
+nav>a {
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
 }
 
 .info {
     height: 700px;
     width: 100%;
-    background:  linear-gradient(to top left, #28b487, #7dd56f);
+    background: linear-gradient(to top left, #28b487, #7dd56f);
     padding: 0px;
     margin: auto;
 }
 
-.logo{
+.logo {
     align-items: center;
     justify-content: center
 }
 
-.logo > img{
+.logo>img {
     width: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-
 
 #info-paragraph {
     text-align: center;
@@ -46,4 +42,48 @@ margin-left:30px;
     color: aliceblue;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: italic;
+}
+
+
+/* The side navigation menu */
+
+.sidenav {
+    position: fixed;
+    left: 0px;
+    height: 100%;
+    width: 15%;
+    background-color: #222;
+    z-index: 1;
+    padding-top: 50px;
+    overflow-x: hidden;
+}
+
+
+/* The navigation menu links */
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #999;
+    display: block;
+}
+
+
+/* When you mouse over the navigation links, change their color */
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
 }
