@@ -51,7 +51,7 @@ nav>a {
     position: fixed;
     left: 0px;
     height: 100%;
-    width: 15%;
+    width: 220px;
     background-color: #222;
     z-index: 1;
     padding-top: 50px;
@@ -67,6 +67,14 @@ nav>a {
     font-size: 20px;
     color: #999;
     display: block;
+}
+
+.closer {
+    padding: 8px 8px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    color: #222;
 }
 
 
