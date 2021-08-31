@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz</title>
     <link rel="stylesheet" href="../../css/quizzes/quizstyles.css" />
-    <script src="https://use.fontawesome.com/961a5ae8a7.js"></script>
+    <script
+      src="https://kit.fontawesome.com/0b431ab769.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="start-btn">
@@ -36,5 +39,47 @@
         <button class="restart">Continue</button>
       </div>
     </div>
+    <div class="quiz-box">
+      <header>
+        <div class="title">LEARNA</div>
+        <div class="timer">
+          <div class="timer-text">Time Left</div>
+          <div class="timer-sec">15</div>
+        </div>
+      </header>
+      <section>
+        <div class="question">
+          <span>What does HTML stand for?</span>
+        </div>
+        <div class="option-list">
+          <div class="option">
+            <span>Hypertext Markup Language</span>
+            <div class="icon tick"><i class="fas fa-check"></i></div>
+          </div>
+          <div class="option">
+            <span>Hypertext Markup Language</span>
+            <div class="icon cross"><i class="fas fa-times"></i></div>
+          </div>
+          <div class="option">
+            <span>Hypertext Markup Language</span>
+          </div>
+          <div class="option">
+            <span>Hypertext Markup Language</span>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="total-questions">
+          <span
+            ><p>2</p>
+            of
+            <p>5</p>
+            Questions</span
+          >
+        </div>
+        <button class="next-button">Next Question</button>
+      </footer>
+    </div>
+    <script src="../../js/quizzes/quizpage.js"></script>
   </body>
 </html>
