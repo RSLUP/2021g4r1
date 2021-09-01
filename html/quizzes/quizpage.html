@@ -12,10 +12,12 @@
     ></script>
   </head>
   <body>
+    <!--Quiz start button-->
     <div class="start-btn">
       <button>Start Quiz</button>
     </div>
 
+    <!--Quiz guidlines information displaying box-->
     <div class="info-box">
       <div class="info-title">
         <span>Quiz Rules and Guidlines</span>
@@ -39,6 +41,8 @@
         <button class="restart">Continue</button>
       </div>
     </div>
+
+    <!--Quiz displaying box-->
     <div class="quiz-box">
       <header>
         <div class="title">LEARNA</div>
@@ -79,6 +83,27 @@
         </div>
         <button class="next-button">Next Question</button>
       </footer>
+    </div>
+
+    <!--Result displaying box-->
+    <div class="result-box">
+      <div class="icon">
+        <i class="fas fa-crown"></i>
+      </div>
+      <div class="complete-text">Congradulations! You completed the Quiz</div>
+      <div class="score">
+        <span
+          >You got
+          <p>3</p>
+          out of
+          <p>5</p>
+          Correct</span
+        >
+      </div>
+      <div class="buttons">
+        <button class="restart">Retry Quiz</button>
+        <button class="quit">Quit</button>
+      </div>
     </div>
     <script src="../../js/quizzes/quizpage.js"></script>
   </body>

@@ -18,7 +18,8 @@ body {
 
 .start-btn,
 .info-box,
-.quiz-box {
+.quiz-box,
+.result-box {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -29,7 +30,8 @@ body {
 }
 
 .info-box.activeInfo,
-.quiz-box.activeQuiz {
+.quiz-box.activeQuiz,
+.result-box.activeResult {
   z-index: 5;
   opacity: 1;
   pointer-events: auto;
@@ -48,6 +50,7 @@ body {
   cursor: pointer;
 }
 
+/*Quiz guidlines information box*/
 .info-box {
   width: 480px;
   background: white;
@@ -123,6 +126,7 @@ body {
   background: var(--color3);
 }
 
+/*Quiz box*/
 .quiz-box {
   width: 450px;
   background: white;
@@ -301,4 +305,62 @@ footer .next-button {
 
 footer .next-button:hover {
   background: var(--color3);
+}
+
+/*Quiz results box*/
+.result-box {
+  background: white;
+  width: 420px;
+  padding: 25px 40px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50% -50%) scale(0.9);
+}
+
+.result-box .icon {
+  font-size: 100px;
+  color: var(--color2);
+  margin-bottom: 10px;
+}
+
+.result-box .complete-text {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.result-box .score span {
+  display: flex;
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.score span p {
+  font-weight: 600;
+  padding: 0 4px;
+}
+
+.result-box .buttons {
+  display: flex;
+  margin: 20px 0;
+}
+
+.result-box .buttons button {
+  margin: 0 10px;
+  height: 40px;
+  padding: 0 20px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  border: 1px solid var(--color2);
+  cursor: pointer;
+  transition: all 300ms ease;
 }
