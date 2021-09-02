@@ -34,4 +34,28 @@ let questions = [
             "Java Script Framweork"
         ]
     },
+
+    {
+        number: 4,
+        question: "What is Java?",
+        answer: "Programming Language",
+        options: [
+            "Programming Language",
+            "Code Editor",
+            "Integrated Development Environment",
+            "Java Script Framweork"
+        ]
+    },
+
+    {
+        number: 5,
+        question: "What is Java?",
+        answer: "Programming Language",
+        options: [
+            "Programming Language",
+            "Code Editor",
+            "Integrated Development Environment",
+            "Java Script Framweork"
+        ]
+    },
 ]

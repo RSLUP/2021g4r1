@@ -24,9 +24,14 @@ body{
 }
 
 .rules p{
+    margin-top: 2rem;
     font-weight: 600;
     text-align: justify;
 }
+
+/* .questions p{
+    margin: 0 auto;
+} */
 
 .reading-text p{
     text-align: justify;
