@@ -288,7 +288,7 @@ footer .total-questions span p:first-child {
 }
 
 footer .next-button {
-  display: none;
+  /*  display: none;*/
   height: 40px;
   padding: 0 13px;
   font-size: 18px;
