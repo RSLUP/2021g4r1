@@ -355,6 +355,25 @@ footer .next-button:hover {
   padding: 0 4px;
 }
 
+.result-box .total-score {
+  background: #dbfff8;
+  border: 1px solid #2cd1ad;
+  border-radius: 5px;
+  padding: 0 8px;
+}
+
+.result-box .total-score span {
+  display: flex;
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.total-score span p {
+  font-weight: 700;
+  padding: 0 4px;
+}
+
 .result-box .buttons {
   display: flex;
   margin: 20px 0;
