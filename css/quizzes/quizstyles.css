@@ -128,7 +128,7 @@ body {
 
 /*Quiz box*/
 .quiz-box {
-  width: 450px;
+  width: 480px;
   background: white;
   border-radius: 5px;
   opacity: 0;
@@ -160,8 +160,8 @@ body {
   justify-content: space-between;
   width: 145px;
   height: 45px;
-  background: #ddf2f8;
-  border: 1px solid #7abecf;
+  background: #dbfff8;
+  border: 1px solid #2cd1ad;
   border-radius: 5px;
   padding: 0 8px;
 }
@@ -175,7 +175,7 @@ body {
 .quiz-box header .timer .timer-sec {
   font-size: 18px;
   font-weight: 500;
-  background: #004747;
+  background: #106855;
   height: 30px;
   width: 45px;
   color: white;
@@ -184,6 +184,15 @@ body {
   border-radius: 5px;
   border: 1px solid #003131;
   user-select: none;
+}
+
+.quiz-box header .time-line {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+
+  height: 3px;
+  background: #2cd1ad;
 }
 
 .quiz-box section {
@@ -288,7 +297,7 @@ footer .total-questions span p:first-child {
 }
 
 footer .next-button {
-  /*  display: none;*/
+  display: none;
   height: 40px;
   padding: 0 13px;
   font-size: 18px;

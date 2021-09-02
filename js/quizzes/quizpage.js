@@ -5,6 +5,9 @@ const quiz_box = document.querySelector(".quiz-box");
 const exit_btn = info_box.querySelector(".buttons .quit");
 const continue_btn = info_box.querySelector(".buttons .restart");
 const option_list = document.querySelector(".option-list");
+const time_sec = quiz_box.querySelector(".timer .timer-sec");
+const time_line = quiz_box.querySelector("header .time-line");
+const next_btn = quiz_box.querySelector(".next-button");
 
 //on clicking start button go to infomation displaying box
 start_btn.onclick = () => {
@@ -23,12 +26,15 @@ continue_btn.onclick = () => {
   quiz_box.classList.add("activeQuiz");
   showQuizContent(0);
   quesCounter(1);
+  start_time(15);
+  start_timeline(0);
 };
 
 let ques_count = 0,
-  ques_num = 1;
-
-const next_btn = quiz_box.querySelector(".next-button");
+  ques_num = 1,
+  time_count,
+  max_time = 15,
+  line_width = 0;
 
 //on clicking next button go to next question
 next_btn.onclick = () => {
@@ -37,6 +43,11 @@ next_btn.onclick = () => {
     showQuizContent(ques_count);
     ques_num++;
     quesCounter(ques_num);
+    clearInterval(time_count);
+    start_time(max_time);
+    clearInterval(line_count);
+    start_timeline(line_width);
+    next_btn.style.display = "none";
   } else {
     console.log("quiz completed");
   }
@@ -82,6 +93,8 @@ let cross_icon = '<div class="icon cross"><i class="fas fa-times"></i></div>';
 
 //function to determine correct answer
 function optionSelected(answer) {
+  clearInterval(time_count);
+  clearInterval(line_count);
   let given_ans = answer.textContent;
   let correct_ans = quiz_content[ques_count].answer;
   let total_ops = option_list.children.length;
@@ -107,6 +120,7 @@ function optionSelected(answer) {
   for (let i = 0; i < total_ops; i++) {
     option_list.children[i].classList.add("disabled");
   }
+  next_btn.style.display = "block";
 }
 
 //function to display questions count
@@ -120,4 +134,29 @@ function quesCounter(count) {
     "</p>Questions</span>";
 
   disp_ques_count.innerHTML = ques_count_tag;
+}
+
+//function to handle time counter
+function start_time(time) {
+  time_count = setInterval(timer, 1000);
+  function timer() {
+    time_sec.textContent = time;
+    time--;
+    if (time < 0) {
+      clearInterval(time_count);
+      time_sec.textContent = "0";
+    }
+  }
+}
+
+//function to handle time line
+function start_timeline(time) {
+  line_count = setInterval(timer, 33);
+  function timer() {
+    time += 1;
+    time_line.style.width = time + "px";
+    if (time > 479) {
+      clearInterval(line_count);
+    }
+  }
 }
