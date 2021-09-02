@@ -4,6 +4,7 @@ const info_box = document.querySelector(".info-box");
 const quiz_box = document.querySelector(".quiz-box");
 const exit_btn = info_box.querySelector(".buttons .quit");
 const continue_btn = info_box.querySelector(".buttons .restart");
+const option_list = document.querySelector(".option-list");
 
 //on clicking start button go to infomation displaying box
 start_btn.onclick = () => {
@@ -44,7 +45,7 @@ next_btn.onclick = () => {
 //function to get questions and options
 function showQuizContent(count) {
   const que_text = document.querySelector(".question");
-  const option_list = document.querySelector(".option-list");
+
   let que_tag =
     "<span>" +
     quiz_content[count].number +
@@ -55,21 +56,57 @@ function showQuizContent(count) {
   let option_tag =
     '<div class="option"><span>' +
     quiz_content[count].options[0] +
-    "</span> </div>" +
+    "</span></div>" +
     '<div class="option"><span>' +
     quiz_content[count].options[1] +
-    "</span> </div>" +
+    "</span></div>" +
     '<div class="option"><span>' +
     quiz_content[count].options[2] +
-    "</span> </div>" +
+    "</span></div>" +
     '<div class="option"><span>' +
     quiz_content[count].options[3] +
-    "</span> </div>";
+    "</span></div>";
 
   que_text.innerHTML = que_tag;
   option_list.innerHTML = option_tag;
 
-  
+  const option = option_list.querySelectorAll(".option");
+
+  for (let i = 0; i < option.length; i++) {
+    option[i].setAttribute("onclick", "optionSelected(this)");
+  }
+}
+
+let tick_icon = '<div class="icon tick"><i class="fas fa-check"></i></div>';
+let cross_icon = '<div class="icon cross"><i class="fas fa-times"></i></div>';
+
+//function to determine correct answer
+function optionSelected(answer) {
+  let given_ans = answer.textContent;
+  let correct_ans = quiz_content[ques_count].answer;
+  let total_ops = option_list.children.length;
+
+  if (given_ans === correct_ans) {
+    answer.classList.add("correct");
+    answer.insertAdjacentHTML("beforeend", tick_icon);
+    console.log("corectAnswer");
+  } else {
+    answer.classList.add("incorrect");
+    answer.insertAdjacentHTML("beforeend", cross_icon);
+    console.log("wrong");
+
+    //if given answer is incorrect, show the correct answer
+    for (let i = 0; i < total_ops; i++) {
+      if (option_list.children[i].textContent == correct_ans) {
+        option_list.children[i].setAttribute("class", "option correct");
+        option_list.children[i].insertAdjacentHTML("beforeend", tick_icon);
+      }
+    }
+  }
+  //disable options after a option is selected
+  for (let i = 0; i < total_ops; i++) {
+    option_list.children[i].classList.add("disabled");
+  }
 }
 
 //function to display questions count
