@@ -7,9 +7,34 @@ const msgInfo = document.getElementById('msg-info');
 const playBtn = document.getElementById('play');
 const indication = document.getElementById('indication');
 const bodyParts = document.getElementsByClassName('body-part');
+var getHint = document.getElementById("hint");
+var showClue = document.getElementById("clue");
 
 // List of words
 const wordList = [
+  'market',
+  'knock',
+  'smite',
+  'windy',
+  'coin',
+  'throw',
+  'silence',
+  'bluff',
+  'downfall',
+  'climb',
+  'lying',
+  'weaver',
+  'snob',
+  'kickoff',
+  'match',
+  'coat',
+  'emerald',
+  'coherent',
+  'multiple',
+  'square',
+];
+
+const wordList2 = [
   'market',
   'knock',
   'smite',
@@ -40,17 +65,30 @@ let incorrectCount = 0;
 const correctLetters = [];
 // Incorrect letters typed by the player
 const incorrectLetters = [];
+let hints =null;
+let  idx;
+
+
 
 // Select a word randomly from wordList and initialize in the DOM
 function initializeWord() {
-  selectedWord = wordList[Math.floor(Math.random() * wordList.length)];
-  const noOfLetters = selectedWord.length;
+   idx = Math.floor(Math.random() * wordList.length);
+   selectedWord = wordList[idx]; 
+   const noOfLetters = selectedWord.length;
+  
   for (let i = 0; i < noOfLetters; i++) {
     const listItem = document.createElement('li');
     listItem.classList.add('letter');
     word.append(listItem);
   }
+  
 }
+
+
+getHint.onclick = function() {
+   
+    showClue.innerHTML = "Clue: - " +  wordList2 [idx];
+};
 
 // Displays an indication sliding from the bottom
 function displayIndication() {
