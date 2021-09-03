@@ -82,7 +82,12 @@ nav>a {
 
 #sidebar ul li a:hover{
     background: #fff;
-    color: #7386D5;
+    color: #126148;
+}
+
+#sidebar ul li a:focus {
+    background: rgb(74, 150, 81);
+    color: #126148;
 }
 
 #sidebar ul li.active>a,
@@ -90,6 +95,7 @@ a[aria-expanded="true"] {
     color: #fff;
     background: #126148;
 }
+
 
 a[data-toggle="collapse"] {
     position: relative;
