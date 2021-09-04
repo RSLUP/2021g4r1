@@ -18,7 +18,7 @@ var data = [
      is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, 
      "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>`,
 
-     `<h2>Tences</h2>
+     `<h2>Tenses</h2>
      <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration 
      in some form, by injected humour, or randomised words which don't look even slightly believable. If you are 
      going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle 
