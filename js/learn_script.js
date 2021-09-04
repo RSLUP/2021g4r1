@@ -1025,29 +1025,737 @@ var data = [
 <p>&nbsp;</p>
 </div>`,
 
-    `<h2></h2>
-    <p>
-    </p>`,
+    `<h2>Past Perfect Tense</h2>
+    <div class="field-item even">
+<h3>Functions of the past perfect</h3>
+<p>The past perfect refers to a time <strong>earlier than before now</strong>. It is used to make it clear that <strong>one event happened before another</strong> in the past. It does not matter which event is mentioned first - the tense makes it clear which one happened first.</p>
+<p>In these examples, Event A is the event that happened first and Event B is the second or more recent event:</p>
+<table>
+<tbody>
+<tr>
+<td><strong>Event A</strong></td>
+<td><strong>Event B</strong></td>
+</tr>
+<tr>
+<td>John <strong>had gone</strong> out</td>
+<td>when I arrived in the office.</td>
+</tr>
+<tr>
+<td><strong>Event A</strong></td>
+<td><strong>Event B</strong></td>
+</tr>
+<tr>
+<td>I <strong>had saved</strong> my document</td>
+<td>before the computer crashed.</td>
+</tr>
+<tr>
+<td><strong>Event B</strong></td>
+<td><strong>Event A</strong></td>
+</tr>
+<tr>
+<td>When they arrived</td>
+<td>we <strong>had already started</strong> cooking.</td>
+</tr>
+<tr>
+<td><strong>Event B</strong></td>
+<td><strong>Event A</strong></td>
+</tr>
+<tr>
+<td>He was very tired</td>
+<td>because he <strong>hadn't slept</strong> well.</td>
+</tr>
+</tbody>
+</table>
+<h3>Forming the past perfect</h3>
+<p>The Past Perfect tense in English is composed of two parts: the past tense of the verb <em>to have (had)</em> + the past participle of the main verb.</p>
+<table>
+<thead>
+<tr>
+<th>Subject</th>
+<th>+had</th>
+<th>+past participle</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="3"><strong>Affirmative</strong></td>
+</tr>
+<tr>
+<td>She</td>
+<td>had</td>
+<td>given</td>
+</tr>
+<tr>
+<td colspan="3"><strong>Negative</strong></td>
+</tr>
+<tr>
+<td>She</td>
+<td>hadn't</td>
+<td>asked.</td>
+</tr>
+<tr>
+<td colspan="3"><strong>Interrogative</strong></td>
+</tr>
+<tr>
+<td>Had</td>
+<td>they</td>
+<td>arrived?</td>
+</tr>
+<tr>
+<td colspan="3"><strong>Interrogative Negative</strong></td>
+</tr>
+<tr>
+<td>Hadn't</td>
+<td>you</td>
+<td>finished?</td>
+</tr>
+</tbody>
+</table>
+<div class="alert alert-info">
+<h5>To decide, past perfect</h5>
+<table>
+<thead>
+<tr>
+<th>Affirmative</th>
+<th>Negative</th>
+<th>Interrogative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>I</strong> had decided</td>
+<td>I hadn't decided</td>
+<td>Had I decided?</td>
+</tr>
+<tr>
+<td><strong>You</strong> had decided</td>
+<td>You hadn't decided</td>
+<td>Had you decided?</td>
+</tr>
+<tr>
+<td><strong>She</strong> had decided</td>
+<td>She hadn't decided</td>
+<td>Had she decided?</td>
+</tr>
+<tr>
+<td><strong>We</strong> had decided</td>
+<td>We hadn't decided</td>
+<td>Had we decided?</td>
+</tr>
+<tr>
+<td><strong>They</strong> had decided</td>
+<td>They hadn't decided</td>
+<td>Had they decided?</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3>Past perfect + just</h3>
+<p><em>'Just'</em> is used with the past perfect to refer to an event that was only a short time earlier than before now, e.g.</p>
+<ul>
+<li>The train <strong>had just left</strong> when I arrived at the station.</li>
+<li>She <strong>had just left</strong> the room when the police arrived.</li>
+<li>I <strong>had just put</strong> the washing out when it started to rain.</li>
+</ul>
+<p>&nbsp;</p>
+</div>`,
 
-    `<h2></h2>
-    <p>
-    </p>`,
+    `<h2>Future Perfect Tense</h2>
+    <div class="field-item even">
+<h3>Form</h3>
+<p>The future perfect is composed of two elements<br><strong>the simple future of the verb "to have" (will have) + the past participle of the main verb</strong></p>
+<table>
+<thead>
+<tr>
+<th>Subject</th>
+<th>+ will have</th>
+<th>+ past participle of the main verb</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>He</td>
+<td>will have</td>
+<td>finished.</td>
+</tr>
+<tr>
+<td>I</td>
+<td>will have</td>
+<td>finished.</td>
+</tr>
+</tbody>
+</table>
+<h6>To arrive, future perfect tense</h6>
+<table>
+<thead>
+<tr>
+<th>Affirmative</th>
+<th>Negative</th>
+<th>Interrogative</th>
+<th>Negative interrogative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>I will have arrived</td>
+<td>I won't have arrived</td>
+<td>Will I have arrived?</td>
+<td>Won't I have arrived?</td>
+</tr>
+<tr>
+<td>You will have arrived</td>
+<td>You won't have arrived</td>
+<td>Will you have arrived?</td>
+<td>Won't you have arrived?</td>
+</tr>
+<tr>
+<td>He will have arrived</td>
+<td>He won't have arrived</td>
+<td>Will he have arrived?</td>
+<td>Won't he have arrived?</td>
+</tr>
+<tr>
+<td>We will have arrived</td>
+<td>We won't have arrived</td>
+<td>Will we have arrived?</td>
+<td>Won't we have arrived?</td>
+</tr>
+<tr>
+<td>They will have arrived</td>
+<td>They won't have arrived</td>
+<td>Will they have arrived?</td>
+<td>Won't they have arrived?</td>
+</tr>
+</tbody>
+</table>
+<h3>Function</h3>
+<p>The future perfect tense refers to a completed action in the future. When we use this tense we are projecting ourselves forward into the future and looking back at an action that will be completed some time later than now. It is most often used with a time expression.</p>
+<div class="alert alert-info">
+<h5>Examples</h5>
+<ul>
+<li><strong>I will have been</strong> here for six months on June 23rd.</li>
+<li>By the time you read this <strong>I will have left</strong>.</li>
+<li><strong>You will have finished</strong> your report by this time next week.</li>
+<li><strong>Won't they have arrived</strong> by 5:00?</li>
+<li><strong>Will you have eaten</strong> when I pick you up?</li>
+</ul>
+</div>
+<p>&nbsp;</p>
+</div>`,
 
-    `<h2></h2>
-    <p>
-    </p>`,
+    `<h2>Present Perfect Continous Tense</h2>
+    <div class="field-item even">
+<p>The present perfect continuous is used to refer to an <strong>unspecified time</strong> between 'before now' and 'now'. The speaker is thinking about something that started but perhaps did not finish in that period of time. He/she is interested in the <strong>process as well as the result,</strong> and this process may still be going on, or may have just finished.</p>
+<h6>Actions that started in the past and continue in the present</h6>
+<p>She <strong>has been waiting</strong> for you all day (= and she's still waiting now).<br><strong>I've been working</strong> on this report since eight o'clock this morning (= and I still haven't finished it).<br><strong>They have been travelling</strong> since last October (= and they're not home yet).</p>
+<h6>Actions that have just finished, but we are interested in the results</h6>
+<p><strong>She has been cooking</strong> since last night (= and the food on the table looks delicious).<br><strong>It's been raining</strong> (= and the streets are still wet).<br><strong>Someone's been eating</strong> my chips (= half of them have gone).</p>
+<h3>Forming the present perfect continuous</h3>
+<p>The present perfect continuous is made up of two elements: the present perfect of the verb <em>'to be'</em> (have/has been), and the present participle of the main verb (base+ing)</p>
+<table>
+<tbody>
+<tr>
+<td><strong>Subject</strong></td>
+<td><strong>+has/have been</strong></td>
+<td><strong>+base+ing</strong></td>
+</tr>
+<tr>
+<td>She</td>
+<td>has been</td>
+<td>swimming</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Affirmative</strong>: She has been / She's been running.<br><strong>Negative</strong>: She hasn't been running.<br><strong>Interrogative </strong>: Has she been running?<br><strong>Interrogative negative</strong>: Hasn't she been running?</p>
+<div class="alert alert-info">
+<h5>Example: present perfect continuous, TO LIVE</h5>
+<table>
+<thead>
+<tr>
+<th>Affirmative</th>
+<th>Negative</th>
+<th>Interrogative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>I </strong>have been living</td>
+<td>I haven't been living</td>
+<td>Have I been living?</td>
+</tr>
+<tr>
+<td><strong>You</strong> have been living</td>
+<td>You haven't been living</td>
+<td>Have you been living?</td>
+</tr>
+<tr>
+<td><strong>He, she, it</strong> has been living</td>
+<td>He hasn't been living</td>
+<td>Has she been living?</td>
+</tr>
+<tr>
+<td><strong>We</strong> have been living</td>
+<td>We haven't been living</td>
+<td>Have we been living?</td>
+</tr>
+<tr>
+<td><strong>You</strong> have been living</td>
+<td>You haven't been living</td>
+<td>Have you been living?</td>
+</tr>
+<tr>
+<td><strong>They</strong> have been living</td>
+<td>They haven't been living</td>
+<td>Have they been living?</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3>Verbs without continuous forms</h3>
+<p>With verbs not normally used in the continuous form, use the simple present perfect instead (verbs such as: know, hate, hear, understand, want).<br><strong>I've wanted</strong> to visit China for years.<br><strong>She's known</strong> Robert since she was a child.<br><strong>I've hated</strong> that music since I first heard it.<br><strong>I've heard</strong> a lot about you recently.<br><strong>We've understood</strong> everything.</p>
+<p>&nbsp;</p>
+</div>`,
 
-    `<h2></h2>
-    <p>
-    </p>`,
+    `<h2>Past Perfect Continous Tense</h2>
+    <div class="field-item even">
+<h3>Functions of the past perfect continuous</h3>
+<p>The past perfect continuous corresponds to the present perfect continuous, but with reference to a time earlier than 'before now'. As with the present perfect continuous, we are more interested in the <strong>process</strong>.</p>
+<div class="alert alert-info">
+<h5>Examples</h5>
+<ul>
+<li><strong>Had you been waiting</strong> long before the taxi arrived?</li>
+<li><strong>We had been trying</strong> to open the door for five minutes when Jane found her key.</li>
+<li><strong>It had been raining</strong> hard for several hours and the streets were very wet.</li>
+<li>Her friends <strong>had been thinking</strong> of calling the police when she walked in.</li>
+</ul>
+</div>
+<p>This form is also used in <strong>reported speech</strong>. It is the equivalent of the past continuous and the present perfect continuous in direct speech:</p>
+<ul>
+<li>Jane said, "I have been gardening all afternoon." = Jane said <strong>she had been gardening</strong> all afternoon.</li>
+<li>When the police questioned him, John said, "I was working late in the office that night." = When the police questioned him, John told them <strong>he had been working</strong> late in the office that night.</li>
+</ul>
+<h3>Forming the past perfect continuous</h3>
+<p>The past perfect continuous is composed of two elements - the past perfect of the verb <em>to be (=had been)</em> + the present participle <em>(base+ing)</em>.</p>
+<table>
+<thead>
+<tr>
+<th>Subject</th>
+<th>+had been</th>
+<th>+verb + ing</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>I</td>
+<td>had been</td>
+<td>walking</td>
+</tr>
+<tr>
+<td colspan="3"><strong>Affirmative</strong></td>
+</tr>
+<tr>
+<td>She</td>
+<td>had been</td>
+<td>trying</td>
+</tr>
+<tr>
+<td colspan="3"><strong>Negative</strong></td>
+</tr>
+<tr>
+<td>She</td>
+<td>hadn't been</td>
+<td>sleeping</td>
+</tr>
+<tr>
+<td colspan="3"><strong>Interrogative</strong></td>
+</tr>
+<tr>
+<td>Had you</td>
+<td>been</td>
+<td>eating?</td>
+</tr>
+<tr>
+<td colspan="3"><strong>Interrogative negative</strong></td>
+</tr>
+<tr>
+<td>Hadn't they</td>
+<td>been</td>
+<td>living?</td>
+</tr>
+</tbody>
+</table>
+<div class="alert alert-info">
+<h5>To buy, past perfect continuous</h5>
+<table>
+<thead>
+<tr>
+<th>Affirmative</th>
+<th>Negative</th>
+<th>Interrogative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>I</strong> had been buying</td>
+<td>I hadn't been buying</td>
+<td>Had I been buying?</td>
+</tr>
+<tr>
+<td><strong>You</strong> had been buying</td>
+<td>You hadn't been buying</td>
+<td>Had you been buying?</td>
+</tr>
+<tr>
+<td><strong>She</strong> had been buying</td>
+<td>She hadn't been buying</td>
+<td>Had she been buying?</td>
+</tr>
+<tr>
+<td><strong>We</strong> had been buying</td>
+<td>We hadn't been buying</td>
+<td>Had we been buying?</td>
+</tr>
+<tr>
+<td><strong>They</strong> had been buying</td>
+<td>They hadn't been buying</td>
+<td>Had they been buying?</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>`,
 
-    `<h2></h2>
-    <p>
-    </p>`,
+    `<h2>Future Perfect Continous Tense</h2>
+    <div class="field-item even">
+<h3>Form</h3>
+<p>The future perfect continuous is composed of two elements<br><strong>the future perfect of the verb "to be" (will have been) + the present participle of the main verb (base + ing)</strong></p>
+<table>
+<thead>
+<tr>
+<th>Subject</th>
+<th>+ will have been</th>
+<th>+ present participle</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>He</td>
+<td>will have been</td>
+<td>playing.</td>
+</tr>
+<tr>
+<td>I</td>
+<td>will have been</td>
+<td>playing.</td>
+</tr>
+</tbody>
+</table>
+<h6>To live, future perfect continuous tense</h6>
+<table>
+<thead>
+<tr>
+<th>Affirmative</th>
+<th>Negative</th>
+<th>Interrogative</th>
+<th>Negative interrogative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>I will have been living</td>
+<td>I won't have been living</td>
+<td>Will I have been living?</td>
+<td>Won't I have been living?</td>
+</tr>
+<tr>
+<td>You will have been living</td>
+<td>You won't have been living</td>
+<td>Will you have been living?</td>
+<td>Won't you have been living?</td>
+</tr>
+<tr>
+<td>He will have been living</td>
+<td>He won't have been living</td>
+<td>Will he have been living?</td>
+<td>Won't he have been living?</td>
+</tr>
+<tr>
+<td>We will have been living</td>
+<td>We won't have been living</td>
+<td>Will we have been living?</td>
+<td>Won't we have been living?</td>
+</tr>
+<tr>
+<td>They will have been living</td>
+<td>They won't have been living</td>
+<td>Will they have been living?</td>
+<td>Won't they have been living?</td>
+</tr>
+</tbody>
+</table>
+<h3>Function</h3>
+<p>Like the future perfect simple, this form is used to project ourselves forward in time and to look back. It refers to events or actions that are currently unfinished but will be finished at some future time. It is most often used with a time expression.</p>
+<div class="alert alert-info">
+<h5>Examples</h5>
+<ul>
+<li><strong>I will have been waiting</strong> here for three hours by six o'clock.</li>
+<li>By 2001 <strong>I will have been living</strong> in London for sixteen years.</li>
+<li>When I finish this course, <strong>I will have been learning</strong> English for twenty years.</li>
+<li>Next year <strong>I will have been working</strong> here for four years.</li>
+<li>When I come at 6:00, <strong>will you have been practicing</strong> long?</li>
+</ul>
+</div>
+<p>&nbsp;</p>
+</div>`,
 
-    `<h2></h2>
-    <p>
-    </p>`,
+    `<h2>Active/Passive Voice</h2>
+    <div class="field-item even">
+<h3>Functions of the passive voice</h3>
+<p>The passive voice is used to show interest in the person or object that experiences an action rather than the person or object that performs the action. In other words, the most important thing or person becomes the subject of the sentence.</p>
+<div class="alert alert-info">
+<h5>Examples</h5>
+<ul>
+<li>The passive voice <strong>is used</strong> frequently. (= we are interested in the passive voice, not in who uses it.)</li>
+<li>The house <strong>was built</strong> in 1654. (= we are interested in the house, not in who built it.)</li>
+<li>The road<strong> is being repaired</strong>. (= we are interested in the road, not in the people who are doing the repairs.)</li>
+</ul>
+</div>
+<p>Sometimes we use the passive voice because we don't know or do not want to express who performed the action.</p>
+<div class="alert alert-info">
+<h5>Examples</h5>
+<ul>
+<li>I noticed that a window <strong>had been left</strong> open.</li>
+<li>Every year thousands of people <strong>are killed</strong> on our roads.</li>
+<li>All the cookies <strong>have been eaten</strong>.</li>
+<li>My car <strong>has been stolen</strong>!</li>
+</ul>
+</div>
+<p>The passive voice is often used in formal texts. Switching to the active voice will make your writing clearer and easier to read.</p>
+<table>
+<thead>
+<tr>
+<th>Passive</th>
+<th>Active</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A great deal of meaning<strong> is conveyed </strong>by a few well-chosen words.</td>
+<td>A few well-chosen words <strong>convey</strong> a great deal of meaning.</td>
+</tr>
+<tr>
+<td>Our planet <strong>is wrapped</strong> in a mass of gases.</td>
+<td>A mass of gases <strong>wrap</strong> around our planet.</td>
+</tr>
+<tr>
+<td>Waste materials <strong>are disposed</strong> of in a variety of ways.</td>
+<td>The city <strong>disposes</strong> of waste materials in a variety of ways.</td>
+</tr>
+</tbody>
+</table>
+<p>If we want to say who or what performs the action while using the passive voice, we use the preposition <em>by</em>. When we know who performed the action and are interested in him, it is always better to switch to the active voice instead.</p>
+<table>
+<thead>
+<tr>
+<th>Passive</th>
+<th>Active</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>"A Hard Day's Night" <strong>was written by</strong> the Beatles.</td>
+<td>The Beatles <strong>wrote</strong> "A Hard Day's Night".</td>
+</tr>
+<tr>
+<td>The movie ET <strong>was directed by</strong> Spielberg.</td>
+<td>Spielberg <strong>directed</strong> the movie ET.</td>
+</tr>
+<tr>
+<td>This house<strong> was built by</strong> my father.</td>
+<td>My father<strong> built</strong> this house.</td>
+</tr>
+</tbody>
+</table>
+<h3>Forming the passive voice</h3>
+<p>The passive voice in English is composed of two elements:<br><strong>the appropriate form of the verb 'to be' + past participle</strong></p>
+<table>
+<thead>
+<tr>
+<th>Affirmative</th>
+<th>Negative</th>
+<th>Interrogative</th>
+<th>Negative interrogative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>The house was built in 1899.</td>
+<td>The house wasn't built in 1899.</td>
+<td>Was the house built in 1899?</td>
+<td>Wasn't the house built in 1899?</td>
+</tr>
+<tr>
+<td>These houses were built in 1899.</td>
+<td>These houses weren't built in 1899.</td>
+<td>Were these houses built in 1899?</td>
+<td>Weren't these houses built in 1899?</td>
+</tr>
+</tbody>
+</table>
+<div class="alert alert-info">
+<h5>To clean, passive voice</h5>
+<table>
+<thead>
+<tr>
+<th>Subject</th>
+<th>+ to be (conjugated)</th>
+<th>+ past participle</th>
+<th>+ rest of sentence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="4"><strong>Simple present</strong></td>
+</tr>
+<tr>
+<td>The house</td>
+<td>is</td>
+<td>cleaned</td>
+<td>every day.</td>
+</tr>
+<tr>
+<td colspan="4"><strong>Present continuous</strong></td>
+</tr>
+<tr>
+<td>The house</td>
+<td>is being</td>
+<td>cleaned</td>
+<td>at the moment.</td>
+</tr>
+<tr>
+<td colspan="4"><strong>Simple past</strong></td>
+</tr>
+<tr>
+<td>The house</td>
+<td>was</td>
+<td>cleaned</td>
+<td>yesterday.</td>
+</tr>
+<tr>
+<td colspan="4"><strong>Past continuous</strong></td>
+</tr>
+<tr>
+<td>The house</td>
+<td>was being</td>
+<td>cleaned</td>
+<td>last week.</td>
+</tr>
+<tr>
+<td colspan="4"><strong>Present perfect</strong></td>
+</tr>
+<tr>
+<td>The house</td>
+<td>has been</td>
+<td>cleaned</td>
+<td>since you left.</td>
+</tr>
+<tr>
+<td colspan="4"><strong>Past perfect</strong></td>
+</tr>
+<tr>
+<td>The house</td>
+<td>had been</td>
+<td>cleaned</td>
+<td>before they arrived.</td>
+</tr>
+<tr>
+<td colspan="4"><strong>Future</strong></td>
+</tr>
+<tr>
+<td>The house</td>
+<td>will be</td>
+<td>cleaned</td>
+<td>next week.</td>
+</tr>
+<tr>
+<td colspan="4"><strong>Future continuous</strong></td>
+</tr>
+<tr>
+<td>The house</td>
+<td>will be being</td>
+<td>cleaned</td>
+<td>tomorrow.</td>
+</tr>
+<tr>
+<td colspan="4"><strong>Present conditional</strong></td>
+</tr>
+<tr>
+<td>The house</td>
+<td>would be</td>
+<td>cleaned</td>
+<td>if they had visitors.</td>
+</tr>
+<tr>
+<td colspan="4"><strong>Past conditional</strong></td>
+</tr>
+<tr>
+<td>The house</td>
+<td>would have been</td>
+<td>cleaned</td>
+<td>if it had been dirty.</td>
+</tr>
+<tr>
+<td colspan="4"><strong>Inifinitive</strong></td>
+</tr>
+<tr>
+<td>The house</td>
+<td>must be</td>
+<td>cleaned</td>
+<td>before we arrive.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h6>Passive voice with infinitives</h6>
+<p>The infinitive passive voice is used after modal verbs and other most verbs normally followed by an infinitive.</p>
+<div class="alert alert-info">
+<h5>Examples</h5>
+<ul>
+<li>You <strong>have to be tested</strong> on your English grammar.</li>
+<li>John <strong>might be promoted</strong> next year.</li>
+<li>She <strong>wants to be invited</strong> to the party.</li>
+<li>I <strong>expect to be surprised</strong> on my birthday.</li>
+<li>You <strong>may be disappointed</strong>.</li>
+</ul>
+</div>
+<h6>Passive voice with gerunds</h6>
+<p>Gerunds are used after prepositions and verbs normally followed by a gerund.</p>
+<div class="alert alert-info">
+<h5>Examples</h5>
+<ul>
+<li>I <strong>remember being taught</strong> to drive.</li>
+<li>The children are excited <strong>about being taken</strong> to the zoo.</li>
+<li>The children are excited <strong>to be taken</strong> to the zoo.</li>
+<li>Most film stars <strong>hate being interviewed</strong>.</li>
+<li>Most film stars <strong>hate to be interviewed</strong>.</li>
+<li>Poodles <strong>like to be pampered</strong>.</li>
+<li>Poodles <strong>like being pampered</strong>.</li>
+</ul>
+</div>
+<h6>Using "to be born"</h6>
+<p>"To be born" is a passive form and is most commonly used in the past tense. However, in some cases, the present or future tense is appropriate.</p>
+<div class="alert alert-info">
+<h5>Examples</h5>
+<ul>
+<li>I<strong> was born</strong> in 1976.</li>
+<li>Where&nbsp;<strong>were you born</strong>?</li>
+<li>Around 100 babies <strong>are born</strong> in this hospital every week.</li>
+<li>We don't know on exactly which day the baby <strong>will be born</strong>.</li>
+</ul>
+</div>
+<p>Sometimes the passive is formed using the verb <em>to get</em> or <em>to have</em> instead of the verb <em>to be</em>. A separate page deals with these .</p>
+<p>&nbsp;</p>
+</div>`,
     `<h2></h2>
     <p>
     </p>`,
