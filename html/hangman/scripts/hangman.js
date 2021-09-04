@@ -112,7 +112,7 @@ function successState() {
   setTimeout(() => {
     backdrop.classList.add('visible');
     finalMsg.classList.add('visible');
-    msgInfo.textContent = 'Hurrah! You won.';
+    msgInfo.textContent = 'Congratulations! You won.';
   }, 400);
 }
 
