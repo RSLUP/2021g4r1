@@ -47,12 +47,16 @@ nav > a {
 }
 
 #info-paragraph {
-  text-align: center;
+  text-align: left;
   font-size: large;
   color: #fff;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-style: italic;
+}
+
+#info-paragraph h2 {
+    font-size: 60px;
 }
 
 .wrapper {
@@ -133,10 +137,6 @@ ul ul a {
   min-height: 100vh;
   transition: all 0.3s;
 }   
-
-#info-paragraph h1 {
-    font-size: 30px;
-}
 
 @media (max-width: 768px) {
   #sidebar {
