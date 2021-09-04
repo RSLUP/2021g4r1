@@ -1,31 +1,1029 @@
 var data = [
-    `<h2></h2>
-    <p>
-    </p>`,
+    `<h2>Simple Present Tense</h2>
+    <p>The simple present tense is one of several forms of present tense in English. It is used to describe <strong>habits, unchanging situations, general truths, and fixed arrangements</strong>. The simple present tense is simple to form. Just use the base form of the verb: (I take, you take, we take, they take) The 3rd person singular takes an -s at the end. (he takes, she takes)</p>
+<h3>The simple present tense is used:</h3>
+<ul>
+<li>To express habits, general truths, repeated actions or unchanging situations, emotions and wishes:<br><strong>I smoke</strong> (habit); <strong>I work in London</strong> (unchanging situation); <strong>London is a large city</strong> (general truth)</li>
+<li>To give instructions or directions:<br><strong>You walk</strong> for two hundred meters, then <strong>you turn</strong> left.</li>
+<li>To express fixed arrangements, present or future:<br>Your exam <strong>starts</strong> at 09.00</li>
+<li>To express future time, after some conjunctions: <strong><em>after, when, before, as soon as, until</em>:<br>He'll give it to you when <strong>you come</strong> next Saturday.</strong></li>
+</ul>
+<div class="alert alert-danger"><strong><strong>Be careful!</strong> The simple present is not used to express actions happening now.</strong></div>
+<div class="alert alert-info">
+<h3>Examples</h3>
+<div class="row">
+<div class="col-md-6">
+<ul>
+<li><strong>For habits</strong><br>He drinks tea at breakfast.<br>She only eats fish.<br>They watch television regularly.</li>
+<li><strong>For repeated actions or events</strong><br>We catch the bus every morning.<br>It rains every afternoon in the hot season.<br>They drive to Monaco every summer.</li>
+<li><strong>For general truths</strong><br>Water freezes at zero degrees.<br>The Earth revolves around the Sun.<br>Her mother is Peruvian.</li>
+<li><strong>For instructions or directions</strong><br>Open the packet and pour the contents into hot water.<br>You take the No.6 bus to Watney and then the No.10 to Bedford.</li>
+<li><strong>For fixed arrangements</strong><br>His mother arrives tomorrow.<br>Our holiday starts on the 26th March</li>
+<li><strong>With future constructions</strong><br>She'll see you before she leaves.<br>We'll give it to her when she arrives.</li>
+</ul>
+</div>
+<div class="col-md-6">&nbsp;</div>
+</div>
+</div>
+<h3>Forming the simple present tense: to think</h3>
+<table>
+<thead>
+<tr>
+<th>Affirmative</th>
+<th>Interrogative</th>
+<th>Negative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>I think</td>
+<td>Do I think?</td>
+<td>I do not think</td>
+</tr>
+<tr>
+<td>You think</td>
+<td>Do you think?</td>
+<td>You do not think</td>
+</tr>
+<tr>
+<td>He thinks</td>
+<td>Does he think?</td>
+<td>He does not think</td>
+</tr>
+<tr>
+<td>She thinks</td>
+<td>Does she think?</td>
+<td>She does not think</td>
+</tr>
+<tr>
+<td>It thinks</td>
+<td>Does it think?</td>
+<td>It does not think</td>
+</tr>
+<tr>
+<td>We think</td>
+<td>Do we think?</td>
+<td>We do not think.</td>
+</tr>
+<tr>
+<td>They think</td>
+<td>Do they think?</td>
+<td>They do not think.</td>
+</tr>
+</tbody>
+</table>
+<h3>Notes on the simple present, third person singular</h3>
+<ul>
+<li>In the third person singular the verb <strong>always ends in -s</strong>:<br><em>he want<strong>s</strong>, she need<strong>s</strong>, he give<strong>s</strong>, she think<strong>s.</strong></em></li>
+<li>Negative and question forms use DOES (= the third person of the auxiliary 'DO') + the infinitive of the verb.<br><em>He want<strong>s</strong> ice cream. <strong>Does</strong> he want strawberry? He <strong>does</strong> not want vanilla.</em></li>
+<li>Verbs ending in <strong>-y</strong> : the third person changes the <strong>-y</strong> to <strong>-ies</strong>:<br><em>fly --&gt; fl<strong>ies</strong>, cry --&gt; cr<strong>ies</strong></em><br><strong>Exception</strong>: if there is a vowel before the -<strong>y</strong>:<br><em>play --&gt; play<strong>s</strong>, pray --&gt; pray<strong>s</strong></em></li>
+<li>Add <strong>-es</strong> to verbs ending in:<strong>-ss, -x, -sh, -ch</strong>:<br><em>he pass<strong>es, </strong>she catch<strong>es, </strong>he fix<strong>es, </strong>it push<strong>es</strong></em></li>
+</ul>
+<div class="alert alert-info">
+<h5>Examples</h5>
+<ul>
+<li><strong>He goes</strong> to school every morning.</li>
+<li><strong>She understands</strong> English.</li>
+<li><strong>It mixes</strong> the sand and the water.</li>
+<li><strong>He tries</strong> very hard.</li>
+<li><strong>She enjoys</strong> playing the piano.</li>
+</ul>
+</div>`,
 
-    `<h2></h2>
-    <p>
-    </p>`,
+    `<h2>Simple Past Tense</h2>
+    <div class="field-item even">
+<p>The simple past tense, sometimes called the preterite, is used to talk about a <strong>completed action</strong> in a time <strong>before now</strong>. The simple past is the basic form of past tense in English. The time of the action can be in the recent past or the distant past and action duration is not important.</p>
+<div class="alert alert-info">
+<h5>Examples</h5>
+<ul>
+<li>John Cabot <strong>sailed</strong> to America in 1498.</li>
+<li>My father <strong>died</strong> last year.</li>
+<li>He <strong>lived</strong> in Fiji in 1976.</li>
+<li>We <strong>crossed</strong> the Channel yesterday.</li>
+</ul>
+</div>
+<p>You always use the simple past when you say <strong>when</strong> something happened, so it is associated with certain past time expressions</p>
+<ul>
+<li><strong>frequency</strong>: <em>often, sometimes, always</em><br>I sometimes <strong>walked</strong> home at lunchtime.<br>I often <strong>brought</strong> my lunch to school.</li>
+<li><strong>a definite point in time</strong>: <em>last week, when I was a child, yesterday, six weeks ago</em><br>We <strong>saw</strong> a good film <em>last week</em>.<br><em>Yesterday</em>, I <strong>arrived</strong> in Geneva.<br>She <strong>finished</strong> her work at<em>seven o'clock</em><br>I <strong>went</strong> to the theatre <em>last night </em></li>
+<li><strong>an indefinite point in time</strong>: <em>the other day, ages ago, a long time ago</em><br>People <strong>lived</strong> in caves a <em>long time ago</em>.<br>She <strong>played</strong> the piano <em>when she was a child</em>.</li>
+</ul>
+<p><strong>Note:</strong> the word <em>ago</em> is a useful way of expressing the distance into the past. It is placed <strong>after</strong> the period of time: <em>a week ago, three years ago, a minute ago</em>.</p>
+<div class="alert alert-danger">Be Careful: The simple past in English may look like a tense in your own language, but the meaning may be different.</div>
+<h3>Forming the simple past tense</h3>
+<h6>Patterns of simple past tense for regular verbs</h6>
+<table>
+<tbody>
+<tr>
+<td colspan="3"><strong>Affirmative</strong></td>
+</tr>
+<tr>
+<td>Subject</td>
+<td>+ verb + ed</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>I</td>
+<td>skipped.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td colspan="3"><strong>Negative</strong></td>
+</tr>
+<tr>
+<td>Subject</td>
+<td>+ did not</td>
+<td>+ infinitive without <em>to</em></td>
+</tr>
+<tr>
+<td>They</td>
+<td>didn't</td>
+<td>go.</td>
+</tr>
+<tr>
+<td colspan="3"><strong>Interrogative</strong></td>
+</tr>
+<tr>
+<td>Did</td>
+<td>+ subject</td>
+<td>+ infinitive without <em>to</em></td>
+</tr>
+<tr>
+<td>Did</td>
+<td>she</td>
+<td>arrive?</td>
+</tr>
+<tr>
+<td colspan="3"><strong>Interrogative negative</strong></td>
+</tr>
+<tr>
+<td>Did not</td>
+<td>+ subject</td>
+<td>+ infinitive without <em>to</em></td>
+</tr>
+<tr>
+<td>Didn't</td>
+<td>you</td>
+<td>play?</td>
+</tr>
+</tbody>
+</table>
+<div class="alert alert-info">
+<h6>To Walk</h6>
+<table>
+<thead>
+<tr>
+<th><strong>Affirmative</strong></th>
+<th><strong>Negative</strong></th>
+<th><strong>Interrogative</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>I walked</td>
+<td>I didn't walk</td>
+<td>Did I walk?</td>
+</tr>
+<tr>
+<td>You walked</td>
+<td>You didn't walk</td>
+<td>Did you walk?</td>
+</tr>
+<tr>
+<td>He walked</td>
+<td>He didn't walk</td>
+<td>Did he walk?</td>
+</tr>
+<tr>
+<td>We walked</td>
+<td>We didn't walk</td>
+<td>Did we walk?</td>
+</tr>
+<tr>
+<td>They walked</td>
+<td>They didn't walk</td>
+<td>Did they walk?</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h6>Simple past tense of to be, to have, to do</h6>
+<table>
+<thead>
+<tr>
+<th>Subject</th>
+<th colspan="3">Verb</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&nbsp;</td>
+<td><strong>Be</strong></td>
+<td><strong>Have</strong></td>
+<td><strong>Do</strong></td>
+</tr>
+<tr>
+<td><strong>I</strong></td>
+<td>was</td>
+<td>had</td>
+<td>did</td>
+</tr>
+<tr>
+<td><strong>You</strong></td>
+<td>were</td>
+<td>had</td>
+<td>did</td>
+</tr>
+<tr>
+<td><strong>He/She/It</strong></td>
+<td>was</td>
+<td>had</td>
+<td>did</td>
+</tr>
+<tr>
+<td><strong>We</strong></td>
+<td>were</td>
+<td>had</td>
+<td>did</td>
+</tr>
+<tr>
+<td><strong>You</strong></td>
+<td>were</td>
+<td>had</td>
+<td>did</td>
+</tr>
+<tr>
+<td><strong>They</strong></td>
+<td>were</td>
+<td>had</td>
+<td>did</td>
+</tr>
+</tbody>
+</table>
+<h3>Notes on affirmative, negative, &amp; interrogative forms</h3>
+<h6>Affirmative</h6>
+<p>The affirmative of the simple past tense is simple.</p>
+<ul>
+<li>I <strong>was</strong> in Japan last year</li>
+<li>She <strong>had</strong> a headache yesterday.</li>
+<li>We <strong>did</strong> our homework last night.</li>
+</ul>
+<h6>Negative and interrogative</h6>
+<p>For the negative and interrogative simple past form of <em>"to do"</em> as an ordinary verb, use the auxiliary <em>"did",</em> e.g. We <strong>didn't do</strong> our homework last night.<br>The negative of <em>"have"</em> in the simple past is usually formed using the auxiliary <em>"did"</em>, but sometimes by simply adding <em>not</em> or the contraction <em>"n't"</em>.</p>
+<p>The interrogative form of <em>"have"</em> in the simple past normally uses the auxiliary <em>"did".</em></p>
+<div class="alert alert-info">
+<h5>Examples</h5>
+<ul>
+<li>They <strong>weren't</strong> in Rio last summer.</li>
+<li>We <strong>didn't have</strong> any money.</li>
+<li>We <strong>didn't have</strong> time to visit the Eiffel Tower.</li>
+<li>We <strong>didn't do</strong> our exercises this morning.</li>
+<li><strong>Were</strong> they in Iceland last January?</li>
+<li><strong>Did you have</strong> a bicycle when you were young?</li>
+<li><strong>Did you do</strong> much climbing in Switzerland?</li>
+</ul>
+</div>
+<p><strong>Note:</strong> For the negative and interrogative form of <strong>all</strong> verbs in the simple past, always use the auxiliary <strong><em>'did</em>''.</strong></p>
+<h3>Simple past, irregular verbs</h3>
+<p>Some verbs are irregular in the simple past. Here are the most common ones.</p>
+<h6>to go</h6>
+<ul>
+<li>He <strong>went</strong> to a club last night.</li>
+<li><strong>Did he go</strong> to the cinema last night?</li>
+<li>He <strong>didn't go</strong> to bed early last night.</li>
+</ul>
+<h6>to give</h6>
+<ul>
+<li>We <strong>gave</strong> her a doll for her birthday.</li>
+<li>They <strong>didn't give</strong> John their new address.</li>
+<li><strong>Did Barry give</strong> you my passport?</li>
+</ul>
+<h6>to come</h6>
+<ul>
+<li>My parents <strong>came</strong> to visit me last July.</li>
+<li>We <strong>didn't come</strong> because it was raining.</li>
+<li><strong>Did he come</strong> to your party last week?</li>
+</ul>
+<p>&nbsp;</p>
+</div>`,
 
-    `<h2></h2>
-    <p>
-    </p>`,
+    `<h2>Simple Future Tense</h2>
+    <div class="field-item even">
+<h3>Functions of the simple future tense</h3>
+<p>The simple future refers to a time later than now, and expresses facts or certainty. In this case there is no 'attitude'.</p>
+<p><strong>The simple future is used:</strong></p>
+<ul>
+<li>To predict a future event:<br>It <strong>will rain</strong> tomorrow.</li>
+<li>With I or We, to express a spontaneous decision:<br><strong>I'll pay</strong> for the tickets by credit card.</li>
+<li>To express willingness:<br><strong>I'll do</strong> the washing-up.<br><strong>He'll carry</strong> your bag for you.</li>
+<li>In the negative form, to express unwillingness:<br>The baby <strong>won't eat</strong> his soup.<br>I <strong>won't leave</strong> until I've seen the manager!</li>
+<li>With I in the interrogative form using "shall", to make an offer:<br><strong>Shall I open</strong> the window?</li>
+<li>With we in the interrogative form using "shall", to make a suggestion:<br><strong>Shall we go</strong> to the cinema tonight?</li>
+<li>With I in the interrogative form using "shall", to ask for advice or instructions:<br>What <strong>shall I tell</strong> the boss about this money?</li>
+<li>With you, to give orders:<br>You <strong>will do</strong> exactly as I say.</li>
+<li>With you in the interrogative form, to give an invitation:<br><strong>Will you come</strong> to the dance with me?<br><strong>Will you marry</strong> me?</li>
+</ul>
+<p><strong>Note:</strong>In modern English <strong>will</strong> is preferred to <strong>shall</strong>. Shall is mainly used with <strong>I</strong> and <strong>we</strong> to make an offer or suggestion, or to ask for advice (see examples above). With the other persons (you, he, she, they) shall is only used in literary or poetic situations, e.g. <em>"With rings on her fingers and bells on her toes, She <strong>shall have</strong> music wherever she goes."</em></p>
+<h3>Forming the simple future</h3>
+<p>The simple future tense is composed of two parts: <em>will / shall</em> + the infinitive without <em>to</em></p>
+<table>
+<thead>
+<tr>
+<th>Subject</th>
+<th>+will</th>
+<th>+infinitive without "to"</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="3"><strong>Affirmative</strong></td>
+</tr>
+<tr>
+<td>I</td>
+<td>will</td>
+<td>go</td>
+</tr>
+<tr>
+<td>I</td>
+<td>shall</td>
+<td>go</td>
+</tr>
+<tr>
+<td colspan="3"><strong>Negative</strong></td>
+</tr>
+<tr>
+<td>They</td>
+<td>will not</td>
+<td>see</td>
+</tr>
+<tr>
+<td>They</td>
+<td>won't</td>
+<td>see</td>
+</tr>
+<tr>
+<td colspan="3"><strong>Interrogative</strong></td>
+</tr>
+<tr>
+<td>Will</td>
+<td>she</td>
+<td>ask?</td>
+</tr>
+<tr>
+<td colspan="3"><strong>Interrogative negative</strong></td>
+</tr>
+<tr>
+<td>Won't</td>
+<td>they</td>
+<td>try?</td>
+</tr>
+</tbody>
+</table>
+<h6>Contractions</h6>
+<p>I will = I'll<br>We will = we'll<br>You will = you'll<br>He will = he'll<br>She will = she'll<br>They will = they'll<br>Will not = won't</p>
+<p>The form "it will" is not normally shortened.</p>
+<h3>To see: simple future tense</h3>
+<table>
+<thead>
+<tr>
+<th>Affirmative</th>
+<th>Negative</th>
+<th>Interrogative</th>
+<th>Interrogative negative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>I</strong> will see</td>
+<td>I won't see</td>
+<td>Will I see?</td>
+<td>Won't I see?</td>
+</tr>
+<tr>
+<td>*<strong>I</strong> shall see</td>
+<td>&nbsp;</td>
+<td>*Shall I see?</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td><strong>You</strong> will see</td>
+<td>You won't see</td>
+<td>Will you see?</td>
+<td>Won't you see?</td>
+</tr>
+<tr>
+<td><strong>He</strong> will see</td>
+<td>He won't see</td>
+<td>Will he see?</td>
+<td>Won't he see?</td>
+</tr>
+<tr>
+<td><strong>We</strong> will see</td>
+<td>We won't see</td>
+<td>Will we see?</td>
+<td>Won't we see?</td>
+</tr>
+<tr>
+<td>*<strong>We</strong> shall see</td>
+<td>&nbsp;</td>
+<td>*Shall we see?</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td><strong>They</strong> will see</td>
+<td>They won't see</td>
+<td>Will they see?</td>
+<td>Won't they see?</td>
+</tr>
+</tbody>
+</table>
+<p>*<strong>Shall</strong> is dated, but it is still commonly used instead of "will" with the affirmative or interrogative forms of <strong>I</strong> and <strong>we</strong> in certain cases (see above).</p>
+</div>`,
 
-    `<h2></h2>
-    <p>
-    </p>`,
+    `<h2>Present Continous Tense</h2>
+    <div class="field-item even">
+<h3>Forming the present continuous</h3>
+<p>The present continuous of any verb is composed of two parts - <em>the present tense of the verb to be + the present participle of the main verb.</em></p>
+<p>(The form of the present participle is:<em> base+ing, e.g. talking, playing, moving, smiling)</em></p>
+<table>
+<tbody>
+<tr>
+<td colspan="3"><strong>Affirmative</strong></td>
+</tr>
+<tr>
+<td>Subject</td>
+<td>+ <strong><em>to be</em></strong></td>
+<td><strong>+ base + <em>ing</em></strong></td>
+</tr>
+<tr>
+<td>She</td>
+<td>is</td>
+<td>talking.</td>
+</tr>
+<tr>
+<td colspan="3"><strong>Negative</strong></td>
+</tr>
+<tr>
+<td>Subject</td>
+<td><strong>+ <em>to be + not</em> </strong></td>
+<td><strong>+ base + <em>ing</em></strong></td>
+</tr>
+<tr>
+<td>She</td>
+<td>is not (isn't)</td>
+<td>talking</td>
+</tr>
+<tr>
+<td colspan="3"><strong>Interrogative</strong></td>
+</tr>
+<tr>
+<td><strong><em>to be </em></strong></td>
+<td><strong>+ subject</strong></td>
+<td><strong>+ base + <em>ing</em></strong></td>
+</tr>
+<tr>
+<td>Is</td>
+<td>she</td>
+<td>talking?</td>
+</tr>
+</tbody>
+</table>
+<div class="alert alert-info">
+<h3>Examples: TO GO, present continuous</h3>
+<table>
+<thead>
+<tr>
+<th>Affirmative</th>
+<th>Negative</th>
+<th>Interrogative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>I</strong> am going</td>
+<td>I am not going</td>
+<td>Am I going?</td>
+</tr>
+<tr>
+<td><strong>You</strong> are going</td>
+<td>You aren't going.</td>
+<td>Are you going?</td>
+</tr>
+<tr>
+<td><strong>He, she, it </strong>is going</td>
+<td>He, she, it isn't going</td>
+<td>Is he, she, it going?</td>
+</tr>
+<tr>
+<td><strong>We</strong> are going</td>
+<td>We aren't going</td>
+<td>Are we going?</td>
+</tr>
+<tr>
+<td><strong>You</strong> are going</td>
+<td>You aren't going</td>
+<td>Are you going?</td>
+</tr>
+<tr>
+<td><strong>They</strong> are going</td>
+<td>They aren't going</td>
+<td>Are they going?</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Note</strong>: alternative negative contractions: <em>I'm not going, you're not going, he's not going etc.</em></p>
+<h3>Functions of the present continuous</h3>
+<p>As with all tenses in English, the <strong><em>speaker's attitude </em></strong>is as important as the time of the action or event. When someone uses the present continuous, they are thinking about something that is <em><strong>unfinished or incomplete</strong></em></p>
+<h5>The present continuous is used:</h5>
+<ul>
+<li>to describe an action that is going on at this moment: <em><strong>You are using </strong>the Internet</em>. <em><strong>You are studying</strong> English grammar.</em></li>
+<li>to describe an action that is going on during this period of time or a trend: <em><strong>Are you still working</strong> for the same company? More and more people <strong>are becoming</strong> vegetarian.</em></li>
+<li>to describe an action or event in the future, which has already been planned or prepared: <em><strong>We're going</strong> on holiday tomorrow</em>. <em><strong>I'm meeting</strong> my boyfriend tonight</em>. <em><strong>Are they visiting</strong></em> you next winter?</li>
+<li>to describe a temporary event or situation: <em>He usually plays the drums, but <strong>he's playing</strong> bass guitar tonight</em>. <em>The weather forecast was good, but <strong>it's raining</strong> at the moment. </em></li>
+<li>with "always, forever, constantly", to describe and emphasise a continuing series of repeated actions: <em>Harry and Sally <strong>are always arguing</strong>! <strong>You're constantly complaining</strong> about your mother-in-law!</em></li>
+</ul>
+<div class="alert alert-danger"><strong>Be careful:</strong> Some verbs are not usually used in the continuous form</div>
+<h3>Verbs that are not usually used in the continuous form</h3>
+<p>The verbs in the list below are normally used in the simple form because they refer to <strong><em>states</em></strong>, rather than actions or processes.</p>
+<div class="col-md-6">
+<h6>Senses / perception</h6>
+<ul>
+<li>to feel*</li>
+<li>to hear</li>
+<li>to see*</li>
+<li>to smell</li>
+<li>to taste</li>
+</ul>
+<h6>Opinion</h6>
+<ul>
+<li>to assume</li>
+<li>to believe</li>
+<li>to consider</li>
+<li>to doubt</li>
+<li>to feel (= to think)</li>
+<li>to find (= to consider)</li>
+<li>to suppose</li>
+<li>to think*</li>
+</ul>
+<h6>Mental states</h6>
+<ul>
+<li>to forget</li>
+<li>to imagine</li>
+<li>to know</li>
+<li>to mean</li>
+<li>to notice</li>
+<li>to recognise</li>
+<li>to remember</li>
+<li>to understand</li>
+</ul>
+</div>
+<div class="col-md-6">
+<h6>Emotions / desires</h6>
+<ul>
+<li>to envy</li>
+<li>to fear</li>
+<li>to dislike</li>
+<li>to hate</li>
+<li>to hope</li>
+<li>to like</li>
+<li>to love</li>
+<li>to mind</li>
+<li>to prefer</li>
+<li>to regret</li>
+<li>to want</li>
+<li>to wish</li>
+</ul>
+<h6>Measurement</h6>
+<ul>
+<li>to contain</li>
+<li>to cost</li>
+<li>to hold</li>
+<li>to measure</li>
+<li>to weigh</li>
+</ul>
+<h6>Others</h6>
+<ul>
+<li>to look (=resemble)</li>
+<li>to seem</li>
+<li>to be <em>(in most cases)</em></li>
+<li>to have <em>(when it means "to possess")</em>*</li>
+</ul>
+</div>
+<div class="alert alert-info">
+<h5>Exceptions</h5>
+<p>Perception verbs (see, hear, feel, taste, smell) are often used with <em>can: I can see...</em> These verbs may be used in the continuous form but with a different meaning</p>
+<ul>
+<li><em>This coat <strong>feels</strong> nice and warm.</em> (your perception of the coat's qualities)</li>
+<li><em><strong>John's feeling</strong> much better now</em> (his health is improving)</li>
+<li><em>She <strong>has</strong> three dogs and a cat.</em> (possession)</li>
+<li><em><strong>She's having</strong> supper.</em> (She's eating)</li>
+<li><em>I can <strong>see</strong> Anthony in the garden</em> (perception)</li>
+<li><em><strong>I'm seeing</strong> Anthony later</em> (We are planning to meet)</li>
+</ul>
+</div>
+</div>`,
 
-    `<h2></h2>
-    <p>
-    </p>`,
+    `<h2>Past Continous Tense</h2>
+    <div class="field-item even">
+<h3>Functions of the past continuous</h3>
+<p>The past continuous describes actions or events in a time <strong>before now</strong>, which began in the past and were&nbsp;<strong>still going on</strong> when another event occurred.</p>
+<p><strong>It is used:</strong></p>
+<ul>
+<li>Often, to describe the background in a story written in the past tense, e.g. "The sun <strong>was shining</strong> and the birds <strong>were singing</strong> as the elephant came out of the jungle. The other animals <strong>were relaxing</strong> in the shade of the trees, but the elephant moved very quickly. She <strong>was looking</strong> for her baby, and she didn't notice the hunter who <strong>was watching</strong> her through his binoculars. When the shot rang out, she <strong>was running</strong> towards the river..."</li>
+<li>to describe an unfinished action that was interrupted by another event or action, e.g. "I <strong>was having</strong> a beautiful dream when the alarm clock rang."</li>
+<li>to express a change of mind: e.g. "I <strong>was going</strong> to spend the day at the beach but I've decided to get my homework done instead."</li>
+<li>with <em>'wonder'</em>, to make a very polite request: e.g. "I <strong>was wondering</strong> if you could baby-sit for me tonight."</li>
+</ul>
+<div class="alert alert-info">
+<h5>Examples</h5>
+<ul>
+<li>They were waiting for the bus when the accident happened.</li>
+<li>Caroline was skiing when she broke her leg.</li>
+<li>When we arrived he was having a bath.</li>
+<li>When the fire started I was watching television.</li>
+</ul>
+</div>
+<p><strong>Note:</strong> with verbs not normally used in the continuous form, the simple past is used.</p>
+<h3>Forming the past continuous</h3>
+<p>The past continuous of any verb is composed of two parts : the past tense of the verb <em>"to be" (was/were)</em>, and the base of the main verb <em>+ing</em>.</p>
+<table>
+<thead>
+<tr>
+<th>Subject</th>
+<th>+was/were</th>
+<th>+base + ing</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>They</td>
+<td>were</td>
+<td>watching</td>
+</tr>
+<tr>
+<td colspan="3"><strong>Affirmative</strong></td>
+</tr>
+<tr>
+<td>She</td>
+<td>was</td>
+<td>reading</td>
+</tr>
+<tr>
+<td colspan="3"><strong>Negative</strong></td>
+</tr>
+<tr>
+<td>She</td>
+<td>wasn't</td>
+<td>reading</td>
+</tr>
+<tr>
+<td colspan="3"><strong>Interrogative</strong></td>
+</tr>
+<tr>
+<td>Was</td>
+<td>she</td>
+<td>reading?</td>
+</tr>
+<tr>
+<td colspan="3"><strong>Interrogative negative</strong></td>
+</tr>
+<tr>
+<td>Wasn't</td>
+<td>she</td>
+<td>reading?</td>
+</tr>
+</tbody>
+</table>
+<div class="alert alert-info">
+<h5>To play, past continuous</h5>
+<table>
+<thead>
+<tr>
+<th>Affirmative</th>
+<th>Negative</th>
+<th>Interrogative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>I</strong> was playing</td>
+<td>I was not playing</td>
+<td>Was I playing?</td>
+</tr>
+<tr>
+<td><strong>You</strong> were playing</td>
+<td>You were not playing</td>
+<td>Were you playing?</td>
+</tr>
+<tr>
+<td><strong>He</strong> was playing</td>
+<td>He wasn't playing</td>
+<td>Was he playing?</td>
+</tr>
+<tr>
+<td><strong>We</strong> were playing</td>
+<td>We weren't playing</td>
+<td>Were we playing?</td>
+</tr>
+<tr>
+<td><strong>They</strong> were playing</td>
+<td>They weren't playing</td>
+<td>Were they playing?</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+</div>`,
 
-    `<h2></h2>
-    <p>
-    </p>`,
+    `<h2>Future Continous Tense</h2>
+    <div class="field-item even">
+<h3>Form</h3>
+<p>The future continuous is made up of two elements:<br><strong>the simple future of the verb "to be" + the present participle (base+ing)</strong></p>
+<table>
+<thead>
+<tr>
+<th>Subject</th>
+<th>+simple future of the verb "to be"</th>
+<th>+present participle</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>You</td>
+<td>will be</td>
+<td>watching</td>
+</tr>
+<tr>
+<td>I</td>
+<td>will be</td>
+<td>staying</td>
+</tr>
+</tbody>
+</table>
+<h6>To stay, future continuous</h6>
+<table>
+<thead>
+<tr>
+<th>Affirmative</th>
+<th>Negative</th>
+<th>Interrogative</th>
+<th>Negative interrogative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>I will be staying.</td>
+<td>I won't be staying.</td>
+<td>Will I be staying?</td>
+<td>Won't I be staying?</td>
+</tr>
+<tr>
+<td>You will be staying.</td>
+<td>You won't be staying.</td>
+<td>Will you be staying?</td>
+<td>Won't you be staying?</td>
+</tr>
+<tr>
+<td>He will be staying.</td>
+<td>He won't be staying.</td>
+<td>Will he be staying?</td>
+<td>Won't he be staying?</td>
+</tr>
+<tr>
+<td>She will be staying.</td>
+<td>She won't be staying.</td>
+<td>Will she be staying?</td>
+<td>Won't she be staying?</td>
+</tr>
+<tr>
+<td>It will be staying.</td>
+<td>It won't be staying.</td>
+<td>Will it be staying?</td>
+<td>Won't it be staying?</td>
+</tr>
+<tr>
+<td>We will be staying.</td>
+<td>We won't be staying.</td>
+<td>Will we be staying?</td>
+<td>Won't we be staying?</td>
+</tr>
+<tr>
+<td>They will be staying.</td>
+<td>They won't be staying.</td>
+<td>Will they be staying?</td>
+<td>Won't they be staying?</td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<p>The future continuous refers to an unfinished action or event that will be in progress at a time later than now. The future continuous is used for quite a few different purposes.</p>
+<p>The future continuous can be used to project ourselves into the future.</p>
+<div class="alert alert-info">
+<h5>Examples</h5>
+<ul>
+<li>This time next week <strong>I will be sun-bathing</strong> in Bali.</li>
+<li>By Christmas <strong>I will be skiing</strong> like a pro.</li>
+<li>Just think, next Monday <strong>you will be working</strong> in your new job.</li>
+</ul>
+</div>
+<p>The future continuous can be used for predicting or guessing about future events.</p>
+<div class="alert alert-info">
+<h5>Examples</h5>
+<ul>
+<li><strong>He'll be coming</strong> to the meeting, I expect.</li>
+<li>I guess <strong>you'll be feeling</strong> thirsty after working in the sun.</li>
+<li><strong>You'll be missing</strong> the sunshine once you're back in England.</li>
+</ul>
+</div>
+<p>In the interrogative form, the future continuous can be used to ask politely for information about the future.</p>
+<div class="alert alert-info">
+<h5>Examples</h5>
+<ul>
+<li><strong>Will you be bringing</strong> your friend to the pub tonight?</li>
+<li><strong>Will Jim be coming</strong> with us?</li>
+<li><strong>Will she be going</strong> to the party tonight?</li>
+<li><strong>Will I be sleeping</strong> in this room?</li>
+</ul>
+</div>
+<p>The future continuous can be used to refer to continuous events that we expect to happen in the future.</p>
+<div class="alert alert-info">
+<h5>Examples</h5>
+<ul>
+<li>I'll be seeing Jim at the conference next week.</li>
+<li>When he is in Australia <strong>he will be staying</strong> with friends.</li>
+<li><strong>I'll be eating</strong> with Jane this evening so I can tell her.</li>
+</ul>
+</div>
+<p>When combined with <em>still</em>, the future continuous refers to events that are already happening now and that we expect to continue some time into the future.</p>
+<div class="alert alert-info">
+<h5>Examples</h5>
+<ul>
+<li>In an hour <strong>I'll still be ironing</strong> my clothes.</li>
+<li>Tomorrow <strong>he'll still be suffering</strong> from his cold.</li>
+<li>Next year <strong>will she still be wearing</strong> a size six?</li>
+<li><strong>Won't stock prices still be falling</strong> in the morning?</li>
+<li>Unfortunately, <strong>sea levels will still be rising</strong> in 20 years.</li>
+</ul>
+</div>
+<p>&nbsp;</p>
+</div>`,
 
-    `<h2></h2>
-    <p>
-    </p>`,
+    `<h2>Present Perfect Tense</h2>
+    <div class="field-item even">
+<h3>Definition of the present perfect tense</h3>
+<p>The present perfect is used to indicate a link between the present and the past. The time of the action is <strong>before now but not specified</strong>, and we are often more interested in the <strong>result</strong> than in the action itself.</p>
+<div class="alert alert-danger"><strong>BE CAREFUL!</strong> There may be a verb tense in your language with a similar form, but the meaning is probably NOT the same.</div>
+<h6>The present perfect is used to describe</h6>
+<ul>
+<li>An action or situation that started in the past and continues in the present. <em>I <strong>have lived</strong> in Bristol since 1984 </em>(= and I still do.)</li>
+<li>An action performed during a period that has not yet finished. <em>She <strong>has been </strong>to the cinema twice this week </em> (= and the week isn't over yet.)</li>
+<li>A repeated action in an unspecified period between the past and now. <em>We <strong>have visited</strong> Portugal several times.</em></li>
+<li>An action that was completed in the very recent past, expressed by 'just'. <em> I <strong>have just finished</strong> my work.</em></li>
+<li>An action when the time is not important. <em>He <strong>has read</strong> 'War and Peace'. </em>(= the result of his reading is important)</li>
+</ul>
+<p><strong>Note:</strong> When we want to give or ask details about when, where, who, we use the simple past. Read more about <a href="/wwen/english-resources/english-grammar/present-perfect-vs-simple-past/" data-clicklabel="page:page:/wwen/english-resources/english-grammar/present-perfect-vs-simple-past/">choosing between the present perfect and the simple past tenses</a>.</p>
+<div class="alert alert-info">
+<h6>Actions started in the past and continuing in the present</h6>
+<ul>
+<li>They <em><strong>haven't lived</strong></em> here for years.</li>
+<li>She <em><strong>has worked</strong></em> in the bank for five years.</li>
+<li>We <em><strong>have had</strong></em> the same car for ten years.</li>
+<li><em><strong>Have you played</strong></em> the piano since you were a child?</li>
+</ul>
+<h6>When the time period referred to has not finished</h6>
+<ul>
+<li><em><strong>I have worked</strong></em> hard<em> <strong>this week</strong></em>.</li>
+<li>It <em><strong>has rained</strong></em> a lot <em><strong>this year</strong></em>.</li>
+<li>We <em><strong>haven't seen</strong></em> her <em><strong>today</strong></em>.</li>
+</ul>
+<h6>Actions repeated in an unspecified period between the past and now.</h6>
+<ul>
+<li>They <em><strong>have seen</strong></em> that film six times</li>
+<li>It <em><strong>has happened</strong></em> several times already.</li>
+<li>She <em><strong>has visited</strong></em> them frequently.</li>
+<li>We <em><strong>have eaten</strong></em> at that restaurant many times.</li>
+</ul>
+<h6>Actions completed in the very recent past (+just)</h6>
+<ul>
+<li><em><strong>Have you just finished</strong></em> work?</li>
+<li>I <em><strong>have just eaten</strong></em>.</li>
+<li>We <em><strong>have just seen</strong></em> her.</li>
+<li><em><strong>Has he just left</strong></em>?</li>
+</ul>
+<h6>When the precise time of the action is not important or not known</h6>
+<ul>
+<li>Someone<em> <strong>has eaten</strong> my soup</em>!</li>
+<li><em><strong>Have you seen</strong> </em>'Gone with the Wind'?</li>
+<li><em><strong>She's studied</strong> </em>Japanese, Russian, and English.</li>
+</ul>
+</div>
+<p>Read more about <a href="/wwen/english-resources/english-grammar/present-perfect-ever-never-already-yet/" data-clicklabel="page:page:/wwen/english-resources/english-grammar/present-perfect-ever-never-already-yet/">using the present perfect with the words "ever", "never", "already", and "yet"</a>, and about <a href="/wwen/english-resources/english-grammar/present-perfect-and/" data-clicklabel="page:page:/wwen/english-resources/english-grammar/present-perfect-and/">using the present perfect with the words "for" and "since"</a>.</p>
+<h3>Forming the present perfect</h3>
+<p>The present perfect of any verb is composed of two elements : the appropriate form of the auxiliary verb <strong><em>to have </em></strong>(present tense), plus the past participle of the main verb. The past participle of a regular verb is <strong><em>base</em>+ed</strong>, e.g. <em>played, arrived, looked</em>. For irregular verbs, see the <strong>Table of irregular verbs</strong> in the section called <strong>'Verbs'</strong>.</p>
+<table>
+<tbody>
+<tr>
+<td colspan="3"><strong>Affirmative</strong></td>
+</tr>
+<tr>
+<td><strong>Subject</strong></td>
+<td><strong><em>+to have</em></strong></td>
+<td><strong>+past participle</strong></td>
+</tr>
+<tr>
+<td>She</td>
+<td>has</td>
+<td>visited.</td>
+</tr>
+<tr>
+<td colspan="3"><strong>Negative</strong></td>
+</tr>
+<tr>
+<td><strong>Subject</strong></td>
+<td><strong><em>+to have + not</em> </strong></td>
+<td><strong>+past participle</strong></td>
+</tr>
+<tr>
+<td>She</td>
+<td>has not (hasn't)</td>
+<td>visited.</td>
+</tr>
+<tr>
+<td colspan="3"><strong>Interrogative</strong></td>
+</tr>
+<tr>
+<td><strong><em>to have </em></strong></td>
+<td><strong>+subject</strong></td>
+<td><strong>+past participle</strong></td>
+</tr>
+<tr>
+<td>Has</td>
+<td>she</td>
+<td>visited?</td>
+</tr>
+<tr>
+<td colspan="3"><strong>Negative interrogative</strong></td>
+</tr>
+<tr>
+<td><strong><em>to have </em>+ not</strong></td>
+<td><strong>+subject</strong></td>
+<td><strong>+past participle</strong></td>
+</tr>
+<tr>
+<td>Hasn't</td>
+<td>she</td>
+<td>visited?</td>
+</tr>
+</tbody>
+</table>
+<div class="alert alert-info">
+<h5>To Walk, present perfect</h5>
+<table>
+<thead>
+<tr>
+<th>Affirmative</th>
+<th>Negative</th>
+<th>Interrogative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>I</strong> have walked</td>
+<td>I haven't walked</td>
+<td>Have I walked?</td>
+</tr>
+<tr>
+<td><strong>You</strong> have walked</td>
+<td>You haven't walked.</td>
+<td>Have you walked?</td>
+</tr>
+<tr>
+<td><strong>He, she, it </strong>has walked</td>
+<td>He, she, hasn't walked</td>
+<td>Has he, she, it walked?</td>
+</tr>
+<tr>
+<td><strong>We</strong> have walked</td>
+<td>We haven't walked</td>
+<td>Have we walked?</td>
+</tr>
+<tr>
+<td><strong>You</strong> have walked</td>
+<td>You haven't walked</td>
+<td>Have you walked?</td>
+</tr>
+<tr>
+<td><strong>They</strong> have walked</td>
+<td>They haven't walked</td>
+<td>Have they walked?</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+</div>`,
 
     `<h2></h2>
     <p>
