@@ -65,6 +65,6 @@ var data = [
 ];
 
 function showContent(n) {
-    var element = document.getElementById("info-paragraph");
+    var element = document.getElementById("info-paragraph");        
     element.innerHTML = data[n];
 }
