@@ -1,55 +1,80 @@
 var data = [
-    `<h2>Big Picture</h2>
-    <p>It is a long established fact that a reader will be distracted by the readable content 
-    of a page when looking at its layout. The point of using Lorem Ipsum is that it has a 
-    more-or-less normal distribution of letters, as opposed to using 'Content here, content 
-    here', making it look like readable English. Many desktop publishing packages and web page 
-    editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' 
-    will uncover many web sites still in their infancy. Various versions have evolved over the
-     years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>`,
+    `<h2></h2>
+    <p>
+    </p>`,
 
-     `<h2>Intro</h2>
-     <p>ontrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece 
-     of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, 
-     a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin 
-     words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical 
-     literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of 
-     "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book 
-     is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, 
-     "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>`,
+    `<h2></h2>
+    <p>
+    </p>`,
 
-     `<h2>Tenses</h2>
-     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration 
-     in some form, by injected humour, or randomised words which don't look even slightly believable. If you are 
-     going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle 
-     of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this 
-     the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful 
-     of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore 
-     always free from repetition, injected humour, or non-characteristic words etc.</p>`,
+    `<h2></h2>
+    <p>
+    </p>`,
 
-     `<h2>Synonyms</h2>
-     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
-     dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-     It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-     It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with 
-     desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>`,
+    `<h2></h2>
+    <p>
+    </p>`,
 
-     `<h2>Nouns</h2>
-     <p>ontrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece 
-     of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, 
-     a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin 
-     words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical 
-     literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of 
-     "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book 
-     is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, 
-     "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>`,
+    `<h2></h2>
+    <p>
+    </p>`,
 
-     `<h2>Verbs</h2>
-     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
-     dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-     It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-     It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with 
-     desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>`,
+    `<h2></h2>
+    <p>
+    </p>`,
+
+    `<h2></h2>
+    <p>
+    </p>`,
+
+    `<h2></h2>
+    <p>
+    </p>`,
+
+    `<h2></h2>
+    <p>
+    </p>`,
+
+    `<h2></h2>
+    <p>
+    </p>`,
+
+    `<h2></h2>
+    <p>
+    </p>`,
+
+    `<h2></h2>
+    <p>
+    </p>`,
+
+    `<h2></h2>
+    <p>
+    </p>`,
+    `<h2></h2>
+    <p>
+    </p>`,
+    `<h2></h2>
+    <p>
+    </p>`,
+    `<h2></h2>
+    <p>
+    </p>`,
+    `<h2></h2>
+    <p>
+    </p>`,
+    `<h2></h2>
+    <p>
+    </p>`,
+    `<h2></h2>
+    <p>
+    </p>`,
+    `<h2></h2>
+    <p>
+    </p>`,
+    `<h2></h2>
+    <p>
+    </p>`,
+    
 
      `<h2>Singular and Plural Nouns</h2>
     <p>
@@ -74,11 +99,6 @@ var data = [
     `<h2>Adjectives</h2>
      <p><td>Adjectives describe or modify nouns.<br><br>I like fairy tales. A fairy tale is an <u>imaginary</u> story that has <u>unrealistic</u> characters in a <u>fantastic</u> background. It makes me forget about the <u>real</u> world and refreshes my <u>tired</u> mind.<br><br>Adjectives generally appear immediately before the noun.<br><br><ul><li>A <u>pretty</u> girl</li><li><u>Red</u> flowers</li><li>A <u>long</u> stick</li><li><u>Heavy</u> boxes</li><li><u>Warm</u> weather</li></ul>Commonly, adjectives of opposite meaning are formed by adding a prefix such as <i>un</i>, <i>in</i>, or <i>dis</i>.<br><br><ul><li>clear – unclear, important – unimportant, predictable – unpredictable, believable – unbelievable, common – uncommon, aware – unaware, ambiguous – unambiguous, conventional – unconventional, certain – uncertain</li><li>definite – indefinite, correct – incorrect, comparable – incomparable, complete – incomplete, evitable – inevitable, expensive – inexpensive</li><li>able – disable, assemble – disassemble, content – discontent, similar – dissimilar</li></ul>When using a string of adjectives, they should appear in a set order: size/shape + age + color + origin + material.<br><br><ul><li>A big brown house</li><li>A small old English desk</li><li>A beautiful black Italian leather purse</li><li>Delicious Chinese food</li></ul><i>The</i> + adjective describes a class or group of people and acts as a noun.<br><br><ul><li>the old, the young, the poor, the rich, the oppressed, the homeless, etc.</li><li> This popular TV show is loved by <b>the old</b>.</li></ul><br><b><font size="3">[Activity 1]</font></b><br><br>Write opposite adjectives using the appropriate prefix.<br><br>1) Clear – <u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u><br>2) Definite – <u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u><br>3) Correct – <u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u><br>4) Expensive – <u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u><br>5) Complete – <u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u><br><br><br><b><font size="3">[Activity 2]</font></b><br><br>Underline all adjectives in the following sentences.<br><br>In the spring, red roses blossom in my cute small garden. The beautiful birds also sing in the big oak tree.</p>`,
 
-    `<h2>Adjectives</h2>
-    <p>
-    <td>Adjectives describe or modify nouns.<br><br>I like fairy tales. A fairy tale is an <u>imaginary</u> story that has <u>unrealistic</u> characters in a <u>fantastic</u> background. It makes me forget about the <u>real</u> world and refreshes my <u>tired</u> mind.<br><br>Adjectives generally appear immediately before the noun.<br><br><ul><li>A <u>pretty</u> girl</li><li><u>Red</u> flowers</li><li>A <u>long</u> stick</li><li><u>Heavy</u> boxes</li><li><u>Warm</u> weather</li></ul>Commonly, adjectives of opposite meaning are formed by adding a prefix such as <i>un</i>, <i>in</i>, or <i>dis</i>.<br><br><ul><li>clear – unclear, important – unimportant, predictable – unpredictable, believable – unbelievable, common – uncommon, aware – unaware, ambiguous – unambiguous, conventional – unconventional, certain – uncertain</li><li>definite – indefinite, correct – incorrect, comparable – incomparable, complete – incomplete, evitable – inevitable, expensive – inexpensive</li><li>able – disable, assemble – disassemble, content – discontent, similar – dissimilar</li></ul>When using a string of adjectives, they should appear in a set order: size/shape + age + color + origin + material.<br><br><ul><li>A big brown house</li><li>A small old English desk</li><li>A beautiful black Italian leather purse</li><li>Delicious Chinese food</li></ul><i>The</i> + adjective describes a class or group of people and acts as a noun.<br><br><ul><li>the old, the young, the poor, the rich, the oppressed, the homeless, etc.</li><li> This popular TV show is loved by <b>the old</b>.</li></ul><br><b><font size="3">[Activity 1]</font></b><br><br>Write opposite adjectives using the appropriate prefix.<br><br>1) Clear – <u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u><br>2) Definite – <u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u><br>3) Correct – <u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u><br>4) Expensive – <u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u><br>5) Complete – <u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u><br><br><br><b><font size="3">[Activity 2]</font></b><br><br>Underline all adjectives in the following sentences.<br><br>In the spring, red roses blossom in my cute small garden. The beautiful birds also sing in the big oak tree.<br><br></td>
-    </p>`,
-    
     `<h2>'Be' Verbs</h2>
     <p>
     <td>A verb shows action or a state of being.<br><br>I <u>go</u> home. Home is my place to rest. I <u>like</u> the smell of my house. I <u>feel</u> totally relaxed. Home <u>refreshes</u> me. At home, I <u>get</u> ready for a new day.<br><br>"Be" verbs indicate a state of being.<br><br>Verbs must match subjects.<br><br><ul><li>I <u>am</u> a doctor.</li><li>He <u>is</u> sleepy.</li><li>We <u>are</u> here.</li></ul>Negative sentences need ‘not' after the verb.<br><br><ul><li>I am not a doctor.</li><li>He is not sleepy.</li><li>We are not there.</li></ul>The verb comes first in interrogative sentences.<br><br><ul><li>Am I a doctor?</li><li>Is he sleepy?</li><li>Are we there?</li></ul>"Are not" (is not) can be shortened to "aren't" (isn't).<br><br><ul><li>He isn't sleepy.</li><li>We aren't there.</li></ul>Remember the variations of "be" verbs:<br><br><br><table border="1" cellpadding="2" cellspacing="0" width="100%"><tbody><tr><td><b>Present</b></td><td><b>Negative</b></td><td><b>Interrogative</b></td></tr><tr><td>I am</td><td>I am not</td><td>Am I?</td></tr><tr><td>You are</td><td>You are not (aren't)</td><td>Are you?</td></tr><tr><td>He is</td><td>He is not (isn't)</td><td>Is he?</td></tr><tr><td>She is</td><td>She is not (isn't)</td><td>Is she?</td></tr><tr><td>It is</td><td>It is not (isn't)</td><td>Isn't it?</td></tr><tr><td>We are</td><td>We are not (aren't)</td><td>Are we?</td></tr><tr><td>You are</td><td>You are not (aren't)</td><td>Are you?</td></tr><tr><td>They are</td><td>They are not (aren't)</td><td>Are they?</td></tr></tbody></table><br><br><b><font size="3">[Activity 1]</font></b><br><br>Which of the following sentences are written correctly?<br><br>1)I am thirsty.<br>2)You are kind.<br>3)He am not sad.<br>4)She are not tall.<br>5)It is not moving.<br>6)We aren't tired.<br>7)Is they running?<br>8)Are you ready?</td>
@@ -142,7 +162,7 @@ var data = [
 
     `<h2></h2>
     <p>
-    </p>`,
+    </p>`
     
 ];
 
