@@ -19,7 +19,7 @@
     <link rel="apple-touch-icon" href="../images/l.svg" />
     <!-- ***************Bootstrap 4 is used************** -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
-    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/learn_styles.css" />
 
 </head>
 
@@ -45,29 +45,169 @@
     <!-- ***************header ends here************** -->
 
     <!-- ***************info div starts here************** -->
-    <div class="container-fluid info">
-        <div>
-            <div id="menu" class="sidenav">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="javascript:void(0)" onclick="showContent(0)">Intro</a>
-                <a href="javascript:void(0)" onclick="showContent(1)">Tences</a>
-                <a href="javascript:void(0)" onclick="showContent(2)">Synonyms</a>
-                <a href="javascript:void(0)" onclick="showContent(3)">Nouns</a>
-                <a href="javascript:void(0)" onclick="showContent(4)">Verbs</a>
-                <a href="javascript:void(0)" onclick="showContent(5)">Adjectives</a>
-            </div>
-        </div>
-        <div>
-            <span class="closer" onclick="openNav()">&#9776; open</span>
-            <p id="info-paragraph">Hello there!</p>
-        </div>
+    <div class="wrapper">
 
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>Lessons</h3>
+            </div>
+            <ul class="lisst-unstyled components">
+                <p>Tenses</p>
+                <li>
+                    <a href="javascript:void(0)" onclick="showContent(0)" data-toggle="collapse" aria-expanded="false">Simple Presenet</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" onclick="showContent(0)">Simple Past</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" onclick="showContent(1)">Simple Future</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" onclick="showContent(2)">Present Continous</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" onclick="showContent(3)">Past Continous</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" onclick="showContent(4)">Future Continous</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" onclick="showContent(5)">Present Perfect</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" onclick="showContent(6)">Past Perfect</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" onclick="showContent(7)">Future Perfect</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" onclick="showContent(8)">Present Perfect Continous</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" onclick="showContent(9)">Past Perfect Continous</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" onclick="showContent(10)">Future Perfect Continous</a>
+                </li>
+                <li></li>
+                <p>Passive Voice</p>
+                <li>
+                    <a href="javascript:void(0)" onclick="showContent(11)">Active/Passive</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" onclick="showContent(12)">Simple Present Passive</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" onclick="showContent(13)">Simple Past Passive</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" onclick="showContent(14)">Simple Future Passive</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" onclick="showContent(15)">Present Continous Passive</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" onclick="showContent(16)">Past Continous Passive</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" onclick="showContent(17)">Future Continous Passive</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" onclick="showContent(18)">Present Perfect Passive</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" onclick="showContent(19)">Past Perfect Passive</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" onclick="showContent(20)">Future Perfect Passive</a>
+                </li>
+                <li></li>
+                <p>Nouns</p>
+                <li>
+                    <a href="javascript:void(0)" onclick="showContent(21)">Singular/Plural</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" onclick="showContent(22)">Count/Non Countl</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" onclick="showContent(23)">Possesive Nouns</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" onclick="showContent(24)">Pronouns</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" onclick="showContent(23)">Adjectives</a>
+                </li>
+                <li></li>
+                <p>Verbs</p>
+                <li>
+                    <a href="javascript:void(0)" onclick="showContent(24)">Be Verbs</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" onclick="showContent(25)">Action Verbs</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" onclick="showContent(26)">Adverbs</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" onclick="showContent(27)">Auxilary Verbs</a>
+                </li>
+                <li></li>
+                <p>Prepositions</p>
+                <li>
+                    <a href="javascript:void(0)" onclick="showContent(28)">On, At, In</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" onclick="showContent(29)">Of, To, For</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" onclick="showContent(30)">With, Over, By</a>
+                </li>
+                <li></li>
+                <p>Conjunctions</p>
+                <li>
+                    <a href="javascript:void(0)" onclick="showContent(31)">Coordinating and Correlative</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" onclick="showContent(32)">Subordinating</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" onclick="showContent(32)">Conjunctive Adverbs</a>
+                </li>
+            </ul>
+
+        </nav>
+
+        <div id="content">
+            <nav id="navback" class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <button type="button" id="sidebarCollapse" class="btn btn-info" aria-expanded="false">
+                        <span class="navbar-toggler-icon icon-light"></span>
+                    </button>
+                </div>
+
+            </nav>
+
+            <br><br>
+            <div>
+                <div id="info-paragraph"></div>
+            </div>
+            
+        </div>
 
         <!-- ***************info div ends here************** -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-        <script src="../js/scripts.js"></script>
+        <script src="../js/learn_script.js"></script>
+
+        <script>
+            $(document).ready(function(){
+                $("#sidebarCollapse").on('click', function(){
+                    $("#sidebar").toggleClass('active');
+                });
+            });
+        </script>
 </body>
 
 </html>
