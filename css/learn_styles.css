@@ -67,6 +67,7 @@ nav > a {
 }
 
 #sidebar {
+    position: sticky;
   min-width: 250px;
   max-width: 250px;
   height:100vh;
@@ -137,6 +138,7 @@ ul ul a {
 }
 
 #content {
+    position: sticky;
   width: 100%;
   padding: 20px;
   min-height: 100vh;
@@ -145,6 +147,7 @@ ul ul a {
 
 @media (max-width: 768px) {
   #sidebar {
+    position: initial;
     margin-left: -250px;
   }
   #sidebar.active {
