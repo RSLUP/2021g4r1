@@ -70,6 +70,10 @@ nav > a {
   width: 100%;
 }
 
+#info-paragraph table > * {
+  width: 50%;
+}
+
 #sidebar {
   position: sticky;
   min-width: 300px;
@@ -165,4 +169,15 @@ ul ul a {
   #sidebarCollapse {
     visibility: visible;
   }
+
+  /* table edit for smaller screen */ 
+  table { 
+    width: 100%; 
+    table-layout: fixed; 
+    font-size: smaller; 
+  } 
+  
+  table thead { 
+    font-size: 12px; 
+  } 
 }
