@@ -132,3 +132,17 @@ nav > a {
     background-color: lightcoral;
   }
 }
+
+.btn-success {
+  /* color: black; */
+  background-color: #018786;
+  border-color: #fff;
+}
+
+.btn-success:hover {
+  background-color: #034e4e;
+}
+
+.topic {
+  color: rgba(255, 255, 255, 0.836);
+}
