@@ -26,8 +26,7 @@ nav > a {
 }
 
 .hero-image {
-  background-image: url("/images/backgrounds/bg-1.jpg");
-  background-color: #cccccc;
+  background-image: url("../images/backgrounds/bg-1.jpg");
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
