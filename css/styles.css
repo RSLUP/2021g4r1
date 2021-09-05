@@ -19,9 +19,28 @@ nav > a {
 .info {
   height: auto;
   width: 100%;
-  background: linear-gradient(to top left, #6a8585, #086366);
+  /* background: linear-gradient(to top left, #28b487, #7dd56f); */
   padding: 0px;
   margin: auto;
+  width: 100%;
+}
+
+.hero-image {
+  background-image: url("/images/backgrounds/bg-1.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: right;
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  color: #086366;
 }
 
 .logo {
