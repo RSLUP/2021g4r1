@@ -32,7 +32,9 @@ const wordList = [
   'present',
   'america',
   'square',
+
   'cricket' , 'kitchen' , 'beautiful' , 'lemonade','coffee','broccoli'
+
 ];
 
 const wordList2 = [
@@ -56,7 +58,9 @@ const wordList2 = [
   'about time',
   'a country',
   'a geometric figure',
+
   'a game' , 'cook here' , 'pretty' , 'a drink','a drink','a vegetable'
+
 ];
 
 // Word that is selected to play
