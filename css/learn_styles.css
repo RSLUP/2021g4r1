@@ -59,7 +59,7 @@ nav > a {
 }
 
 #info-paragraph h2 {
-    font-size: 60px;
+  font-size: 60px;
 }
 
 .wrapper {
@@ -73,7 +73,7 @@ nav > a {
   position: sticky;
   min-width: 300px;
   max-width: 300px;
-  height:100vh;
+  height: 100vh;
   left: 0;
   right: 0;
   overflow-y: scroll;
@@ -145,17 +145,25 @@ ul ul a {
   padding: 20px;
   min-height: 100vh;
   transition: all 0.3s;
-}   
-
+}
 
 @media (max-width: 768px) {
   #sidebar {
     position: initial;
     margin-left: -300px;
-    
   }
   #sidebar.active {
     margin-left: 0;
     height: auto;
+  }
+  /* table edit for smaller screen */
+  table {
+    width: 100%;
+    table-layout: fixed;
+    font-size: smaller;
+  }
+
+  table thead {
+    font-size: 12px;
   }
 }
