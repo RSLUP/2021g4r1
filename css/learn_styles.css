@@ -152,6 +152,10 @@ ul ul a {
   transition: all 0.3s;
 }
 
+#sidebarCollapse {
+  visibility: hidden;
+}
+
 @media (max-width: 768px) {
   #sidebar {
     position: initial;
@@ -161,6 +165,11 @@ ul ul a {
     margin-left: 0;
     height: auto;
   }
+
+  #sidebarCollapse {
+    visibility: visible;
+  }
+
   /* table edit for smaller screen */
   table {
     width: 100%;
