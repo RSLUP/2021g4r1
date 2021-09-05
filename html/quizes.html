@@ -24,7 +24,6 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="../css/styles.css" />
-    
   </head>
 
   <body>
@@ -43,14 +42,17 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavAltMarkup"
+        >
           <div class="navbar-nav">
-            <a class="nav-item nav-link " href="learn.html"
+            <a class="nav-item nav-link" href="learn.html"
               >LEARN <span class="sr-only">(current)</span></a
             >
             <a class="nav-item nav-link" href="game.html">GAMES</a>
             <a class="nav-item nav-link" href="practise.html">PRACTISE</a>
-            <a class="nav-item nav-link active" href="quizes.html">QUIZES</a>
+            <a class="nav-item nav-link active" href="quizes.html">QUIZZES</a>
           </div>
         </div>
       </nav>
@@ -59,17 +61,101 @@
 
     <!-- ***************info div starts here************** -->
     <div class="container-fluid info">
-        <div class="logo">
-            <img src="../images/logo.png">
+      <div class="logo">
+        <img src="../images/logo.png" />
+      </div>
+      <div>
+        <p id="info-paragraph">QUIZZES</p>
+      </div>
+
+      <!-- ***************Cards************** -->
+      <div class="row ml-5 mr-5" style="text-align: center">
+        <div class="col d-flex justify-content-center mb-5">
+          <div class="card" style="width: 18rem">
+            <div class="card-title" style="padding-top: 25px">
+              <h5>Vocabulary Quiz</h5>
+            </div>
+
+            <div class="card-body">
+              <p class="card-text">
+                Try this Quiz to test your Vocabulary skills.
+              </p>
+              <a
+                href="quizzes/quizpage.html"
+                class="btn btn-success"
+                id="key1"
+                onclick="loadVocab()"
+                >Take Quiz</a
+              >
+            </div>
+          </div>
         </div>
-        <div >
-            <p id="info-paragraph">
-                QUIZES
-            </p>
+
+        <div class="col d-flex justify-content-center mb-5">
+          <div class="card" style="width: 18rem">
+            <div class="card-title" style="padding-top: 25px">
+              <h5>Tenses Quiz</h5>
+            </div>
+
+            <div class="card-body">
+              <p class="card-text">
+                Try this Quiz to test your Grammar skills.
+              </p>
+              <a
+                href="quizzes/quizpage.html"
+                class="btn btn-success"
+                id="key2"
+                onclick="loadGram()"
+                >Take Quiz</a
+              >
+            </div>
+          </div>
         </div>
+
+        <div class="col d-flex justify-content-center mb-5" id="3">
+          <div class="card" style="width: 18rem">
+            <div class="card-title" style="padding-top: 25px">
+              <h5>Nouns Quiz</h5>
+            </div>
+
+            <div class="card-body">
+              <p class="card-text">
+                Try this Quiz to test how much you know about Nouns.
+              </p>
+              <a
+                href="quizzes/quizpage.html"
+                class="btn btn-success"
+                id="key3"
+                onclick="loadNouns()"
+                >Take Quiz</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col d-flex justify-content-center mb-5">
+          <div class="card" style="width: 18rem">
+            <div class="card-title" style="padding-top: 25px">
+              <h5>Passive Voice Quiz</h5>
+            </div>
+
+            <div class="card-body">
+              <p class="card-text">
+                Try this Quiz to test how much you know about Passive Voice.
+              </p>
+              <a
+                href="quizzes/quizpage.html"
+                class="btn btn-success"
+                id="key4"
+                onclick="loadPassive()"
+                >Take Quiz</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-    
     <!-- ***************info div ends here************** -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -86,6 +172,7 @@
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"
     ></script>
-    <script src="js/scripts.js"></script>
+
+    <script src="../js/quizzes/quiz_content.js"></script>
   </body>
 </html>

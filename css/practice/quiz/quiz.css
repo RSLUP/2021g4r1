@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: calibri, sans-serif;
+}
+
+:root{
+    --background: #ccc;
+    --color4: #007bff;
+    --color3: #063364;
+    --color2: #018786
+}
+
+body{
+    background: var(--color2);
+}
+
+.start-btn, 
+.info-box,
+.quiz-box,
+.result-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2), 0px 6px 20px 0px rgba(0, 0, 0, 0.1);
+    transition: all 300ms ease;
+} 
+
+.info-box.activeInfo,
+.quiz-box.activeQuiz,
+.result-box.activeResult{
+    z-index: 5;
+    opacity: 1;
+    pointer-events: auto;
+    transform: translate(-50% -50%) scale(0.9);
+}
+
+.start-btn button {
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--color2);
+    padding: 15px 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: white;
+    cursor: pointer;
+}
+
+.info-box{
+    width: 450px;
+    background: white;
+    border-radius: 5px;
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(-50% -50%) scale(0.9);
+}
+
+.info-box .info-title {
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    padding: 0 35px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.info-box .info-list{
+    padding: 15px 35px;
+}
+
+.info-box .info-list .info{
+    margin: 5px 0;
+    font-size: 17px;
+}
+
+.info-box .info-list .info span{
+    font-weight: 600;
+}
+
+.info-box .buttons{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 35px;
+    border-top: 1px solid lightgray;
+}
+
+.info-box .buttons button{
+    margin: 0 5px;
+    height: 40px;
+    width: 100px;
+    outline: none;
+    border: 1px solid var(--color2);
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.buttons button.quit{
+    color: var(--color2);
+    border-color: var(--color2);
+}
+
+.buttons button.quit:hover{
+    color: white;
+    background: var(--color2);
+}
+
+.buttons button.restart{
+    color: white;
+    background: var(--color2);
+}
+
+.buttons button.restart:hover{
+    background:var(--color3) ;
+}
+
+
+
+.quiz-box{
+    width: 450px;
+    background: white;
+    border-radius: 5px;
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(-50% -50%) scale(0.9);
+}
+
+.quiz-box header{
+    position: relative;
+    z-index: 99;
+    height: 70px;
+    padding: 0 30px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-box header .title{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.quiz-box section{
+    padding: 25px 30px 20px 30px;
+    background: white;
+}
+
+.quiz-box section .question{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.quiz-box section .option-list{
+    padding: 20px 0;
+    display: block;
+}
+
+section .option-list .option{
+    background: aliceblue;
+    border:  1px solid #84c5fe ;
+    border-radius: 5px;
+    padding: 8px 15px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.option-list:last-child{
+    margin-bottom: 0px;
+}
+
+section .option-list .option:hover{
+    color: #004085;
+    background: #cce5ff;
+    border-color: #b8daff;
+}
+
+.option-list .option .icon{
+    height: 25px;
+    width: 25px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 13px;
+    line-height: 24px;
+    pointer-events: none;
+}
+
+.option-list .option .icon.tick{
+    color: #23903c;
+    border-color: #23903c;
+    background: #d4edda;
+}
+
+.option-list .option .icon.cross{
+    color: #a42834;
+    border-color: #a42834;
+    background: #f5c6cb;;
+}
+
+.option-list .option.correct{
+    color: #23903c;
+    border-color: #23903c;
+    background: #d4edda;;
+}
+
+.option-list .option.incorrect{
+    color: #a42834;
+    border-color: #a42834;
+    background: #f5c6cb;
+}
+
+.option-list .option.disabled{
+    pointer-events: none;
+}
+
+.quiz-box footer{
+    height: 60px;
+    width: 100%;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.quiz-box footer .total-questions span{
+    display: flex;
+    user-select: none;
+}
+
+footer .total-questions span p{
+    font-weight: 500;
+    padding: 0 5px;
+}
+
+footer .total-questions span p:first-child{
+    padding-left: 0px;
+}
+
+footer .next-button{
+    display: none;
+    height: 40px;
+    padding: 0 13px;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    background: var(--color2);
+    border-radius: 5px;
+    border: 1px solid var(--color2);
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+footer .next-button:hover{
+    background:#0263ca ;
+}
+
+.result-box{
+    background: white;
+    width: 400px;
+    padding: 25px 40px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(-50% -50%) scale(0.9);
+}
+
+
+.result-box .icon{
+    font-size: 100px;
+    color: var(--color2);
+    margin-bottom: 10px;
+}
+
+.result-box .complete-text{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.result-box .score span{
+    display: flex;
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.score span p{
+    font-weight: 600;
+    padding: 0 4px;
+}
+
+.result-box .buttons{
+    display: flex;
+    margin: 20px 0;
+}
+
+.result-box .buttons button{
+    margin: 0 10px;
+    height: 40px;
+    padding: 0 20px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 1px solid var(--color2);
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+@media only screen and (max-device-width: 350px) {
+    body{
+        transform: scale(0.5);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
+}
+
+@media only screen and (max-device-width: 450px) {
+    body{
+        transform: scale(0.7);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
+}
