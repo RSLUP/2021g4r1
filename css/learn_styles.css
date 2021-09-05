@@ -151,13 +151,6 @@ ul ul a {
   min-height: 100vh;
   transition: all 0.3s;
 }
-<<<<<<< HEAD
-=======
-
-#sidebarCollapse {
-  visibility: hidden;
-}
->>>>>>> eaaa5d5d53595340ee764a09162aac4df8d9dfc6
 
 @media (max-width: 768px) {
   #sidebar {
@@ -168,7 +161,6 @@ ul ul a {
     margin-left: 0;
     height: auto;
   }
-<<<<<<< HEAD
   /* table edit for smaller screen */
   table {
     width: 100%;
@@ -179,21 +171,4 @@ ul ul a {
   table thead {
     font-size: 12px;
   }
-=======
-
-  #sidebarCollapse {
-    visibility: visible;
-  }
-
-  /* table edit for smaller screen */ 
-  table { 
-    width: 100%; 
-    table-layout: fixed; 
-    font-size: smaller; 
-  } 
-
-  table thead { 
-    font-size: 12px; 
-  } 
->>>>>>> eaaa5d5d53595340ee764a09162aac4df8d9dfc6
 }
