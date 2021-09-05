@@ -156,5 +156,6 @@ ul ul a {
   }
   #sidebar.active {
     margin-left: 0;
+    height: auto;
   }
 }
