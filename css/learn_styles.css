@@ -83,7 +83,7 @@ nav > a {
   right: 0;
   overflow-y: scroll;
   top: 0px;
-  background: var(--color5);
+  background: #086366;
   color: #fff;
   transition: all 0.3s;
 }
@@ -176,7 +176,7 @@ ul ul a {
     table-layout: fixed; 
     font-size: smaller; 
   } 
-  
+
   table thead { 
     font-size: 12px; 
   } 
