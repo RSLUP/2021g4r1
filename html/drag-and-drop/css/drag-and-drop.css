@@ -1,6 +1,6 @@
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color:teal;
+    background-color:#086366;
     margin: 0;
 }
 
@@ -37,7 +37,8 @@ p{
     width: 300px;
     height: 300px;
     margin:50px;
-    background-color:springgreen;
+    background-color:#197772;
+    color: aliceblue;
     margin: 10px;
     border-radius: 5px;
 }
@@ -54,7 +55,7 @@ p{
 .goBack a,.goToGame a{
     text-decoration: none;
     font-weight: bold;
-    color: teal;
+    color: #197772;
 }
 
 .goBack:hover, .goToGame:hover{

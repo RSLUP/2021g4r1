@@ -1,6 +1,6 @@
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color:teal;
+    background-color: #086366;
     margin: 0;
 }
 
@@ -48,6 +48,7 @@ h1{
     padding: 15px 30px;
     width: 100px;
     background-color:springgreen;
+    color: #086366;
     margin: 10px;
     border-radius: 5px;
 }
@@ -64,7 +65,7 @@ button{
     text-align: center;
     font-weight: bold;
     font-size: 15px;
-    color: teal;
+    color: #086366;
 }
 
 .goBack{
@@ -75,7 +76,7 @@ button{
 
 .goBack a{
     text-decoration: none;
-    color: teal;
+    color: #086366;
 }
 
 button:hover{
