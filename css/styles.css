@@ -165,3 +165,23 @@ nav > a {
 .topic {
   color: rgba(255, 255, 255, 0.836);
 }
+
+@media only screen and (max-width: 420px) {
+  .hero-image {
+    background-image: url("../images/backgrounds/bg-1.jpg");
+    /* height: 500px; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .hero-text {
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    color: #086366;
+  }
+}
