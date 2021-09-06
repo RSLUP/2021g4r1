@@ -276,14 +276,6 @@ body {
   }
 }
 
-@media (hover: none) {
-  .backdrop {
-    display: block;
-  }
 
-  .no-work {
-    display: flex;
-  }
-}
 
 
