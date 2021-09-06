@@ -160,6 +160,18 @@ nav > a {
 
 .btn-success:hover {
   background-color: #034e4e;
+  border-color: #fff;
+}
+
+.btn-success:visited {
+  background-color: #034e4e;
+  border-color: #fff;
+}
+
+.btn.btn-success:visited,
+.btn.btn-success:active {
+  background-color: #018786;
+  border-color: #fff;
 }
 
 .topic {
