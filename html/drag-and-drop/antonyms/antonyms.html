@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gorditas&display=swap" rel="stylesheet">
+    <!--  -->
+    <link rel="stylesheet" href="./css/antonyms.css">
+    <title>Antonyms</title>
+</head>
+<body>
+    <div class="nav">
+        <button class="goBack"><a href="../drag-and-drop.html">Go Back</a></button>
+    </div>
+
+    <h1>Antonyms</h1>
+
+    <p>Match the given words with the respective antonyms</p>
+
+    <div class="div-drag">
+        <div class="drag"ondrop="item1(event)">
+            <text ondragstart="dragStart1(event)" draggable="true" id="target1">Ordinary</text><!-- Extraordinary -->
+        </div>
+        <div class="drag" ondrop="item2(event)">
+            <text ondragstart="dragStart2(event)" draggable="true" id="target2">Amateur</text><!-- Professional -->
+        </div>
+        <div class="drag" ondrop="item3(event)">
+            <text ondragstart="dragStart3(event)" draggable="true" id="target3">Random</text><!-- Specific -->
+        </div>
+        <div class="drag" ondrop="item4(event)">
+            <text ondragstart="dragStart4(event)" draggable="true" id="target4">Cautious</text><!-- Careless -->
+        </div>
+        <div class="drag" ondrop="item5(event)">
+            <text ondragstart="dragStart5(event)" draggable="true" id="target5">Generous</text></div><!-- Stingy -->
+        </div>
+    </div>
+    <br/><br/>
+    <div class="div-drop">
+        <div class="drop" ondrop="box1(event)" ondragover="allowDrop1(event)" id="place1">Professional</div>
+        <div class="drop" ondrop="box2(event)" ondragover="allowDrop2(event)" id="place2">Extraordinary</div>
+        <div class="drop" ondrop="box3(event)" ondragover="allowDrop3(event)" id="place3">Careless</div>
+        <div class="drop" ondrop="box4(event)" ondragover="allowDrop4(event)" id="place4">Stingy</div>
+        <div class="drop" ondrop="box5(event)" ondragover="allowDrop5(event)" id="place5">Specific</div>
+    </div>
+
+    <br/><br />
+
+    <!-- To show the number of items matched correctly. 1 match = 1 point -->
+    <p class="score">Score: <text id="score">0</text></p>
+
+    <!-- Button to submit the quiz -->
+    <div class="btn-container">
+        <button onclick="submitQuizz()">Submit</button>
+    </div>
+    
+    <!-- Display a message after clicking on the submit button -->
+    <p class="msg-style" id="msg"></p>
+    
+    <script src="./js/antonyms.js"></script>
+</body>
+</html>
