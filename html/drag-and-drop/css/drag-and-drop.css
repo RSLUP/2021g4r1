@@ -1,0 +1,105 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:teal;
+    margin: 0;
+}
+
+.nav{
+    padding: 10px;
+    display: flex;
+}
+
+/* Heding */
+h1{
+    font-family: 'Gorditas', cursive;
+    font-size: 40px;
+    text-align: center;
+    color: aquamarine;
+}
+
+p{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+/* Content */
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Cards */
+.synonyms, .antonyms{
+    padding: 15px 30px;
+    width: 300px;
+    height: 300px;
+    margin:50px;
+    background-color:springgreen;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/* Buttons */
+.goBack,.goToGame{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: aquamarine;
+}
+
+.goBack a,.goToGame a{
+    text-decoration: none;
+    font-weight: bold;
+    color: teal;
+}
+
+.goBack:hover, .goToGame:hover{
+    background-color:lightcyan;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+    p{
+        font-size: 15px;
+    }
+
+    .goBack,.goToGame{
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .synonyms, .antonyms{
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    h1{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 12px;
+    }
+
+    .synonyms, .antonyms{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100px;
+        height: 100px;
+    }
+}
