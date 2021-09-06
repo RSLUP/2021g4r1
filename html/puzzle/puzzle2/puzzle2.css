@@ -22,7 +22,8 @@
   .info {
       height: auto;
       width: 100%;
-      background:  linear-gradient(to top left, #28b487, #7dd56f);
+      /* background:  linear-gradient(to top left, #28b487, #7dd56f); */
+      background-color: #018786;
       padding: 0px;
       margin: auto;
   }
@@ -68,7 +69,7 @@
     }
   
     .tileD {
-      background-color: blue;
+      background-color: #28b487;
       height: 50px;
       width: 50px;
     }
@@ -120,7 +121,7 @@
     }
   
     .tileD {
-      background-color: blue;
+      background-color: #28b487;
       height: 70px;
       width: 70px;
     }
