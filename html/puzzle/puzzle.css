@@ -5,3 +5,18 @@
     text-align: center;
     padding-top: 10%;
 }
+
+.game-button {
+    background-color: #28b487; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+body {
+    background-color: #018786; /* Green */
+}
