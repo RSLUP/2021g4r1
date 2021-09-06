@@ -191,7 +191,6 @@ ul ul a {
   #sidebar.active {
     margin-left: 0;
     height: auto;
-    width: 600px;
   }
 
   #sidebarCollapse {
@@ -207,6 +206,10 @@ ul ul a {
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
+  }
+
+  #info-paragraph.active {
+    visibility: hidden;
   }
 
   .hero-image {
