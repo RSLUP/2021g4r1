@@ -566,8 +566,10 @@ a:hover {
 /* footer css */
 
 footer {
-  background: linear-gradient(0deg, #fff, 50%, #deeefe);
-  background: #455a64;
+  background: linear-gradient(45deg, rgb(3, 3, 3), 50%, #1a002b);
+  /* background: #455a64; */
+  /* background-color: #18151f; */
+  box-shadow: 0 4px 21px -12px rgb(0 0 0 / 66%);
   height: 100 !important;
   padding: 50px;
 }
@@ -618,5 +620,13 @@ footer h6 a {
 }
 
 footer h6 a:hover {
+  color: inherit;
+}
+
+footer small a {
+  color: inherit;
+}
+
+footer small a:hover {
   color: inherit;
 }
