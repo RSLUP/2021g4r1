@@ -562,3 +562,61 @@ a:hover {
     );
   }
 }
+
+/* footer css */
+
+footer {
+  background: linear-gradient(0deg, #fff, 50%, #deeefe);
+  background: #455a64;
+  height: 100 !important;
+  padding: 50px;
+}
+
+footer .container-fluid {
+  overflow: hidden;
+  margin-top: 250px;
+  background: #262626;
+  color: #627482 !important;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+footer small {
+  font-size: calc(
+    12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))
+  ) !important;
+}
+
+footer .bold-text {
+  color: #989c9e !important;
+}
+
+footer .mt-55 {
+  margin-top: calc(
+    50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))
+  ) !important;
+}
+
+footer h3 {
+  font-size: calc(
+    34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))
+  ) !important;
+}
+
+footer .social {
+  font-size: 21px !important;
+}
+
+footer .rights {
+  font-size: calc(
+    10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))
+  ) !important;
+}
+
+footer h6 a {
+  color: inherit;
+}
+
+footer h6 a:hover {
+  color: inherit;
+}
