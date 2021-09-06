@@ -1,0 +1,135 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:teal;
+    margin: 0;
+}
+
+.nav{
+    padding: 10px;
+    display: flex;
+}
+
+h1{
+    font-family: 'Gorditas', cursive;
+    font-size: 40px;
+    text-align: center;
+    color: aquamarine;
+}
+
+.div-drag{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.div-drop{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.drag{
+    padding: 15px 30px;
+    width: 100px;
+    margin: 10px;
+    border: solid 1px springgreen;
+    border-radius: 5px;
+    color: springgreen;
+}
+
+.drag :hover{
+    font-size: 22px;
+}
+
+.drop{
+    
+    padding: 15px 30px;
+    width: 100px;
+    background-color:springgreen;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.btn-container{
+    text-align: center;
+}
+
+button{
+    padding: 15px 40px;
+    background-color:aquamarine;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: teal;
+}
+
+.goBack{
+    margin-left: auto;
+    margin-right: 10px;
+    background-color:aquamarine;
+}
+
+.goBack a{
+    text-decoration: none;
+    color: teal;
+}
+
+button:hover{
+    background-color:lightcyan;
+}
+
+p{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.score{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.msg-style{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+}
+
+@media only screen and (max-width: 500px) {
+    h1{
+        font-size: 20px;
+    }
+
+    .score, p{
+        font-size: 12px;
+    }
+
+    .msg-style{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .div-drag, .div-drop{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .drag, .drop{
+        align-self: center;
+        padding: 10px 20px;
+        width: 100px;
+        margin: 10px;
+    }
+
+    button{
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+}
