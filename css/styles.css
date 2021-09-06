@@ -200,7 +200,8 @@ nav > a {
 
 /* cards css */
 body {
-  color: #ffffff;
+  /* color: #ffffff; */
+  color: #000;
   text-rendering: optimizeLegibility;
   font-weight: initial;
 }
