@@ -13,7 +13,7 @@ const restart_btn = result_box.querySelector(".buttons .restart");
 const quizExit_btn = result_box.querySelector(".buttons .quit");
 
 quiz_content = JSON.parse(localStorage.getItem("quizType"));
-localStorage.clear();
+
 
 //on clicking start button go to infomation displaying box
 start_btn.onclick = () => {

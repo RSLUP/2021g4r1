@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 
 <html lang="en">
@@ -25,7 +24,6 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/styles.css" />
-    
   </head>
 
   <body>
@@ -44,14 +42,17 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavAltMarkup"
+        >
           <div class="navbar-nav">
-            <a class="nav-item nav-link " href="html/learn.html"
+            <a class="nav-item nav-link" href="html/learn.html"
               >LEARN <span class="sr-only">(current)</span></a
             >
-            <a class="nav-item nav-link" href="html/game.html">GAMES</a>
             <a class="nav-item nav-link" href="html/practise.html">PRACTISE</a>
-            <a class="nav-item nav-link " href="html/quizes.html">QUIZES</a>
+            <a class="nav-item nav-link" href="html/quizes.html">QUIZES</a>
+            <a class="nav-item nav-link" href="html/game.html">GAMES</a>
           </div>
         </div>
       </nav>
@@ -60,33 +61,181 @@
 
     <!-- ***************info div starts here************** -->
     <div class="container-fluid info">
-        <div class="logo">
-            <img src="images/logo.png">
+      <div class="hero-image">
+        <div class="hero-text">
+          <h1 style="font-size: 50px">LEARNA</h1>
+          <h3 style="font-size: 20px">We innovate learning processes</h3>
         </div>
-        <div >
-            <p id="info-paragraph">
-                &nbsp &nbsp &nbsp &nbsp Learn English online and improve your skills through
-
-                         our high-quality courses and resources.
-                         <br>
-                         <br>
-                            Here you can learn English from very basics. You have to
-                            through the tutorials and referneces. As soon as you got some 
-                            knowledge you can practise by your own. 
-                            <br><br>
-                                There are some quizzes to improve your knowledge. Feel 
-                                free to pay your attention to complete them.
-                                <br><br>
-                         You can learn English while having fun with games and jokes. 
-                         You can find games for all tastes to help you practise your 
-
-                         English or just to have fun.
-            </p>
-        </div>
+      </div>
     </div>
 
-    
     <!-- ***************info div ends here************** -->
+
+    <!-- cards starts here -->
+    <section class="dark">
+      <div class="container py-4">
+        <!-- <h1 class="h1 text-center" id="pageHeaderTitle">My Cards Dark</h1> -->
+
+        <article class="postcard dark blue">
+          <a class="postcard__img_link" href="html/learn.html">
+            <img
+              class="postcard__img"
+              src="./images/learning-concept-illustration_114360-6186.jpg"
+              alt="Image Title"
+            />
+          </a>
+          <div class="postcard__text">
+            <h1 class="postcard__title blue"><a href="html/learn.html">Learn</a></h1>
+            <!-- <div class="postcard__subtitle small">
+              <time datetime="2020-05-25 12:00:00">
+                <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+              </time>
+            </div> -->
+            <div class="postcard__bar"></div>
+            <div class="postcard__preview-txt">
+              English is an international language and all across the world,
+              most of people understand this language. There is so much
+              importance in learning English. If you are a good English speaker,
+              you can communicate with anyone internationally which will help
+              you to learn more and explore more.
+            </div>
+            <!-- <ul class="postcard__tagbox">
+              <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+              <li class="tag__item">
+                <i class="fas fa-clock mr-2"></i>55 mins.
+              </li>
+              <li class="tag__item play blue">
+                <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+              </li>
+            </ul> -->
+          </div>
+        </article>
+
+
+        <article class="postcard dark yellow">
+          <a class="postcard__img_link" href="html/practise.html">
+            <img
+              class="postcard__img"
+              src="./images/boy-studying-with-book_113065-238.jpg"
+              alt="Image Title"
+            />
+          </a>
+          <div class="postcard__text">
+            <h1 class="postcard__title yellow">
+              <a href="html/practise.html">Activities</a>
+            </h1>
+            <div class="postcard__bar"></div>
+            <div class="postcard__preview-txt">
+              Activities make your learnings perfect. Here is our activites made for you to polish your learnings. 
+            </div>
+          </div>
+        </article>
+
+
+        <article class="postcard dark green">
+          <a class="postcard__img_link" href="html/quizes.html">
+            <img
+              class="postcard__img"
+              src="./images/thoughtful-woman-with-laptop-looking-big-question-mark_1150-39362.jpg"
+              alt="Image Title"
+            />
+          </a>
+          <div class="postcard__text">
+            <h1 class="postcard__title green"><a href="html/quizes.html">Quizzes</a></h1>
+            <div class="postcard__bar"></div>
+            <div class="postcard__preview-txt">
+              Quizzes help you to measure your knowledge. Check our Quizzes section to develop your knowledge in a challenging environment. 
+            </div>
+          </div>
+        </article>
+
+
+        <article class="postcard dark red">
+          <a class="postcard__img_link" href="html/game.html">
+            <img
+              class="postcard__img"
+              src="./images/crossword-sudoku-abstract-concept-vector-illustration-stay-home-games-puzzles-keep-your-brain-shape-self-isolation-time-spending-quarantine-leasure-activity-abstract-metaphor_335657-1677.jpg"
+              alt="Image Title"
+            />
+          </a>
+          <div class="postcard__text">
+            <h1 class="postcard__title red"><a href="html/game.html">Games</a></h1>
+            <div class="postcard__bar"></div>
+            <div class="postcard__preview-txt">
+              Learning English with Games is fun. This is one of the best methods to Learn and test your knowledge while having fun. Let's play the GAME.
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+
+    <!-- cards end here -->
+
+    <!-- footer starts here -->
+      <footer class="container-fluid mb-0 justify-content-center text-light">
+        <div class="row my-5 justify-content-center py-5">
+          <div class="col-11">
+            <div class="row">
+              <div class="col-xl-8 col-md-4 col-sm-4 col-12 my-auto mx-auto a">
+                <h3 class="text-muted mb-md-0 mb-5 bold-text">LEARNA</h3>
+              </div>
+              <div class="col-xl-2 col-md-4 col-sm-4 col-12">
+                <h6 class="mb-3 mb-lg-4 bold-text"><b>MENU</b></h6>
+                <ul class="list-unstyled">
+                  <li href="#">Home</li>
+                  <li href="html/learn.html">Learn</li>
+                  <li href="html/game.html">Games</li>
+                  <li href="html/practise.html">Practise</li>
+                  <li href="html/quizes.html">Quizes</li>
+                </ul>
+              </div>
+              <div class="col-xl-2 col-md-4 col-sm-4 col-12">
+                <h6 class="mb-3 mb-lg-4 text-muted bold-text mt-sm-0 mt-5">
+                  <b>ADDRESS</b>
+                </h6>
+                <p class="mb-1">LEARNA English Academy</p>
+                <p>Peradeniya</p>
+              </div>
+            </div>
+            <div class="row">
+              <div
+                class="
+                  col-xl-8 col-md-4 col-sm-4 col-auto
+                  my-md-0
+                  mt-5
+                  order-sm-1 order-3
+                  align-self-end
+                "
+              >
+               
+                <small class="rights" 
+                  ><span>&#174;</span><a href="https://github.com/RSLUP/2021g4r1"> LEARNA All Rights Reserved.</a></small
+                >
+              </div>
+
+
+              <div
+                class="
+                  col-xl-2 col-md-4 col-sm-4 col-auto
+                  order-1
+                  align-self-end
+                "
+              >
+                <h6  class="mt-55 mt-2 text-muted bold-text">
+                  <a href="mailto:hello@learna.com"><b >LEARNA EDUCATION</b></a>
+                </h6>
+                <small>
+                  <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                  hello@learna.com</small
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    
+    <!-- fopter ends here -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -105,4 +254,3 @@
     <script src="js/scripts.js"></script>
   </body>
 </html>
-
