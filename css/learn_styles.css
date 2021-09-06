@@ -77,7 +77,7 @@ nav > a {
 #sidebar {
   position: sticky;
   min-width: 300px;
-  max-width: 300px;
+  max-width: 600px;
   height: 100vh;
   left: 0;
   right: 0;
@@ -152,6 +152,25 @@ ul ul a {
   transition: all 0.3s;
 }
 
+.hero-image {
+  background-image: url("../images/backgrounds/bg-1.jpg");
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+  position: relative;
+}
+
+.hero-text {
+  text-align: right;
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  color: #086366;
+}
+
 #sidebarCollapse {
   visibility: hidden;
 }
@@ -164,6 +183,7 @@ ul ul a {
   #sidebar.active {
     margin-left: 0;
     height: auto;
+    width: 600px;
   }
 
   #sidebarCollapse {
@@ -179,6 +199,25 @@ ul ul a {
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
+  }
+
+  .hero-image {
+    background-image: url("../images/backgrounds/bg-1.jpg");
+    /* height: 500px; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .hero-text {
+    visibility: hidden;
+    text-align: right;
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color: #086366;
   }
 
   /* table edit for smaller screen */
