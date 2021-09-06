@@ -175,7 +175,7 @@ ul ul a {
 .hero-paragraph {
   width: auto;
   margin-top: 15px;
-  font-size: 15px;
+  font-size: 20px;
   text-align: justify;
 }
 
@@ -226,6 +226,13 @@ ul ul a {
     left: 60%;
     transform: translate(-50%, -50%);
     color: #086366;
+  }
+
+  .hero-paragraph {
+    width: auto;
+    margin-top: 15px;
+    font-size: 13px;
+    text-align: justify;
   }
 
   /* table edit for smaller screen */
