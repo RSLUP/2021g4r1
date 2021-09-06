@@ -1756,31 +1756,163 @@ var data = [
 <p>Sometimes the passive is formed using the verb <em>to get</em> or <em>to have</em> instead of the verb <em>to be</em>. A separate page deals with these .</p>
 <p>&nbsp;</p>
 </div>`,
-    `<h2></h2>
-    <p>
-    </p>`,
-    `<h2></h2>
-    <p>
-    </p>`,
-    `<h2></h2>
-    <p>
-    </p>`,
-    `<h2></h2>
-    <p>
-    </p>`,
-    `<h2></h2>
-    <p>
-    </p>`,
-    `<h2></h2>
-    <p>
-    </p>`,
-    `<h2></h2>
-    <p>
-    </p>`,
-    `<h2></h2>
-    <p>
-    </p>`,
-    
+    `<h2>Passive Voice part 2</h2>
+    <div class="field-item even">
+<p>Sentences written in the active voice are easier to understand than sentences written in the passive voice. Switching the passive voice into the active voice is straightforward, but it requires a bit of practice. In the equivalency table below, notice that the tense of the verb <em>to be</em> in the passive voice is always the same as the tense of the main verb in the active voice. In order to use the active voice, you will have to make the subject of the action explicit.</p>
+<h3>To keep, active and passive voice</h3>
+<table>
+<thead>
+<tr>
+<th>Tense</th>
+<th>Active voice</th>
+<th>Passive voice</th>
+<th>Active sentence</th>
+<th>Passive equivalent</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Simple present</td>
+<td>keep</td>
+<td>is kept</td>
+<td>I keep the butter in the fridge.</td>
+<td>The butter is kept in the fridge.</td>
+</tr>
+<tr>
+<td>Present continuous</td>
+<td>is keeping</td>
+<td>is being kept</td>
+<td>John is keeping my house tidy.</td>
+<td>My house is being kept tidy.</td>
+</tr>
+<tr>
+<td>Simple past</td>
+<td>kept</td>
+<td>was kept</td>
+<td>Mary kept her schedule meticulously.</td>
+<td>Mary's schedule was kept meticulously.</td>
+</tr>
+<tr>
+<td>Past continuous</td>
+<td>was keeping</td>
+<td>was being kept</td>
+<td>The theater was keeping a seat for you.</td>
+<td>A seat was being kept for you.</td>
+</tr>
+<tr>
+<td>Present perfect</td>
+<td>have kept</td>
+<td>have been kept</td>
+<td>I have kept all your old letters.</td>
+<td>All your old letters have been kept.</td>
+</tr>
+<tr>
+<td>Past perfect</td>
+<td>had kept</td>
+<td>had been kept</td>
+<td>He had kept up his training regimen for a month.</td>
+<td>His training regimen had been kept up for a month.</td>
+</tr>
+<tr>
+<td>Simple Future</td>
+<td>will keep</td>
+<td>will be kept</td>
+<td>Mark will keep the ficus.</td>
+<td>The ficus will be kept.</td>
+</tr>
+<tr>
+<td>Conditional Present</td>
+<td>would keep</td>
+<td>would be kept</td>
+<td>If you told me, I would keep your secret.</td>
+<td>If you told me, your secret would be kept.</td>
+</tr>
+<tr>
+<td>Conditional Past</td>
+<td>would have kept</td>
+<td>would have been kept</td>
+<td>I would have kept your bicycle here if you had left it with me.</td>
+<td>Your bicycle would have been kept here if you had left it with me.</td>
+</tr>
+<tr>
+<td>Present Infinitive</td>
+<td>to keep</td>
+<td>to be kept</td>
+<td>She wants to keep the book.</td>
+<td>The book wants to be kept.</td>
+</tr>
+<tr>
+<td>Perfect Infinitive</td>
+<td>to have kept</td>
+<td>to have been kept</td>
+<td>Judy was happy to have kept the puppy.</td>
+<td>The puppy was happy to have been kept.</td>
+</tr>
+<tr>
+<td>Present Participle &amp; Gerund</td>
+<td>keeping</td>
+<td>being kept</td>
+<td>I have a feeling that you may be keeping a secret.</td>
+<td>I have a feeling that a secret may be being kept.</td>
+</tr>
+<tr>
+<td>Perfect Participle</td>
+<td>having kept</td>
+<td>having been kept</td>
+<td>Having kept the bird in a cage for so long, Jade wasn't sure it could survive in the wild.</td>
+<td>The bird, having been kept in a cage for so long, might not survive in the wild.</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+</div>`,
+    `<h2>Passive Voice part 3</h2>
+    <div class="field-item even">
+<p>You can form sentences that are passive in meaning but not in form by using <a href="/wwen/english-resources/english-grammar/verb-get/" data-clicklabel="page:page:/wwen/english-resources/english-grammar/verb-get/">the verb <em>to get</em></a> or the verb <em>to have</em> in place of the verb <em>to be</em>. These constructions often describe situations where we want someone else to do something for us or where we are going to hire someone else to do something for us. The subject is active, but he is only doing the "getting". It is the unnamed person who is gotten who will perform the action of the main verb in the sentence. That second person is not explicit in the sentence when the sentence has a passive meaning. We are more interested in the result of the activity than in the person that performs the activity.</p>
+<div class="alert alert-info">
+<h5>Examples</h5>
+<ul>
+<li>I must <strong>get my hair cut.</strong></li>
+<li>I must <strong>have my hair cut</strong>.</li>
+<li>When are you going to <strong>get that window mended</strong>?</li>
+<li>We're <strong>having the house painted</strong>.</li>
+</ul>
+</div>
+<p>This type of construction can refer to the completion of an activity, especially if a time expression is used.</p>
+<div class="alert alert-info">
+<h5>Examples</h5>
+<ul>
+<li>We'll <strong>get the work done</strong> as soon as possible.</li>
+<li>I'll <strong>get those letters typed</strong> before lunchtime.</li>
+<li>She said she'd<strong> have my lunch delivered</strong> by noon.</li>
+<li>You should <strong>have your roof repaired</strong> before next winter.</li>
+</ul>
+</div>
+<p>If the verb refers to something unwanted, it has the same meaning as a passive sentence.</p>
+<div class="alert alert-info">
+<h5>Examples</h5>
+<ul>
+<li>Jim <strong>had his car stolen</strong> last night.</li>
+<li>Jim's car <strong>was stolen</strong>.</li>
+<li>They <strong>had their roof blown off</strong> in the storm.</li>
+<li>Their roof <strong>was blown off</strong> in the storm.</li>
+</ul>
+</div>
+<h6>Using "to need" in passive constructions</h6>
+<p>You can also use the verb <em>to need</em> followed by the gerund in an active construction with a passive meaning. The important thing in our minds in these sentences is the person or thing that will experience the action, not the person performing the action.</p>
+<div class="alert alert-info">
+<h5>Examples</h5>
+<ul>
+<li>The ceiling <strong>needs painting</strong>.</li>
+<li>The ceiling <strong>needs to be painted</strong>.</li>
+<li>My hair <strong>needs cutting</strong>.</li>
+<li>My hair <strong>needs to be cut</strong>.</li>
+<li>That faucet <strong>needs fixing</strong>.</li>
+<li>That faucet <strong>needs to be fixed</strong>.</li>
+</ul>
+</div>
+<p>&nbsp;</p>
+</div>`,
 
      `<h2>Singular and Plural Nouns</h2>
     <p>
