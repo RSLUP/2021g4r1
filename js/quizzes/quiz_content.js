@@ -17,7 +17,7 @@ let vocab = [
   },
   {
     number: 3,
-    question: "The seat which is put on the horse’s back is the ______",
+    question: "The seat which is put on the horse’s back is the ______.",
     answer: "saddle",
     options: ["stirrup", "saddle", "reins", "jockey"],
   },
@@ -78,7 +78,7 @@ let tenses = [
 let nouns = [
   {
     number: 1,
-    question: " Will ___ please give me your pen?",
+    question: "Will ___ please give me your pen?",
     answer: "you",
     options: ["he", "you", "she", "them"],
   },
@@ -167,7 +167,7 @@ let prepos = [
   {
     number: 3,
     question: "Can’t you come ______ your bicycle?",
-    answer: "by",
+    answer: "on",
     options: ["in", "with", "on", "by"],
   },
   {
@@ -317,7 +317,7 @@ let indirect = [
 let mix1 = [
   {
     number: 1,
-    question: '"Don’t wait for me, Ann," said Tom. Tom told Ann ___ .',
+    question: '"Don’t wait for me, Ann," said Tom. Tom told Ann ____.',
     answer: "not to wait for him",
     options: [
       "to wait for him",
@@ -391,7 +391,7 @@ let mix2 = [
   },
   {
     number: 4,
-    question: 'She said, "I lost the key of my room." She said that ___ .',
+    question: 'She said, "I lost the key of my room." She said that ____.',
     answer: "she had lost the key of her room",
     options: [
       "she lost the key of my room",
@@ -431,7 +431,7 @@ let mix3 = [
   {
     number: 3,
     question:
-      '"Whose birthday is it?" said Jane. Jane asked whose birthday ___ .',
+      '"Whose birthday is it?" said Jane. Jane asked whose birthday ____.',
     answer: "it was",
     options: ["it had been", "is it", "it is", "it was"],
   },
@@ -465,7 +465,7 @@ let mix4 = [
 
   {
     number: 2,
-    question: "When he ___ to the station the train already ___ .",
+    question: "When he ___ to the station the train already ____.",
     answer: "came / had left",
     options: [
       "came / had left",
@@ -483,13 +483,13 @@ let mix4 = [
   },
   {
     number: 4,
-    question: "We are late. The teacher will get angry with ______ .",
+    question: "We are late. The teacher will get angry with ______.",
     answer: "us",
     options: ["us", "I", "we", "they"],
   },
   {
     number: 5,
-    question: '"Where did they spend the vacation?" Tom said ___ .',
+    question: '"Where did they spend the vacation?" Tom said ____.',
     answer: "they had spent it at the seaside",
     options: [
       "they came back",
